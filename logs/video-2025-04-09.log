@@ -1,0 +1,688 @@
+2025-04-09 00:49:07 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 00:49:07 server.ts[info]: sqlConnection() 
+2025-04-09 00:49:07 server.ts[info]: initializationExpressServer() 
+2025-04-09 00:49:07 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 00:49:07 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 00:49:07 server.ts[info]: initializeRoutes() 
+2025-04-09 00:49:07 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 00:49:12 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 00:49:12 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 00:49:13 server.ts[error]: ERROR occurred in controller.videos.saveVideo()  Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:15:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-09 00:49:13 server.ts[info]: errorHandler() 
+2025-04-09 00:49:13 server.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:15:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-09 00:49:13 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 00:49:13 server.ts[info]: ::1 - - [08/Apr/2025:19:19:13 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 
+2025-04-09 00:50:33 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 00:50:33 server.ts[info]: sqlConnection() 
+2025-04-09 00:50:33 server.ts[info]: initializationExpressServer() 
+2025-04-09 00:50:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 00:50:33 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 00:50:33 server.ts[info]: initializeRoutes() 
+2025-04-09 00:50:33 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 00:50:39 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 00:50:39 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 00:50:39 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 00:50:39 server.ts[info]: sqlConnection() 
+2025-04-09 00:50:39 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 00:50:40 server.ts[info]: commitTransaction() 
+2025-04-09 00:50:40 server.ts[info]: endTransaction() 
+2025-04-09 00:50:40 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 00:50:40 server.ts[info]: ::1 - - [08/Apr/2025:19:20:40 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 54
+ 
+2025-04-09 11:47:30 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 11:47:30 server.ts[info]: sqlConnection() 
+2025-04-09 11:47:30 server.ts[info]: initializationExpressServer() 
+2025-04-09 11:47:30 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 11:47:30 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 11:47:30 server.ts[info]: initializeRoutes() 
+2025-04-09 11:47:31 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 11:47:48 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 11:47:48 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 11:47:48 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 11:47:48 server.ts[info]: sqlConnection() 
+2025-04-09 11:47:55 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 11:48:09 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 11:48:09 server.ts[info]: sqlConnection() 
+2025-04-09 11:48:09 server.ts[info]: initializationExpressServer() 
+2025-04-09 11:48:09 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 11:48:09 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 11:48:09 server.ts[info]: initializeRoutes() 
+2025-04-09 11:48:09 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:01:41 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:01:41 server.ts[info]: sqlConnection() 
+2025-04-09 12:01:41 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:01:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:01:41 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:01:41 server.ts[info]: initializeRoutes() 
+2025-04-09 12:01:41 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:01:46 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:01:46 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 12:01:46 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:01:46 server.ts[info]: sqlConnection() 
+2025-04-09 12:01:47 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:02:07 server.ts[info]: rollBackTransaction() 
+2025-04-09 12:02:07 server.ts[error]: ERROR occurred in service.videos.saveVideo()  ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+ Error: ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\node_modules\fluent-ffmpeg\lib\processor.js:180:22)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-04-09 12:02:07 server.ts[info]: endTransaction() 
+2025-04-09 12:02:07 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:02:07 server.ts[info]: ::1 - - [09/Apr/2025:06:32:07 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 104
+ 
+2025-04-09 12:03:39 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:03:39 server.ts[info]: sqlConnection() 
+2025-04-09 12:03:39 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:03:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:03:39 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:03:39 server.ts[info]: initializeRoutes() 
+2025-04-09 12:03:39 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:03:45 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:03:45 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 12:03:45 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:03:45 server.ts[info]: sqlConnection() 
+2025-04-09 12:03:45 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:03:46 server.ts[info]: rollBackTransaction() 
+2025-04-09 12:03:46 server.ts[error]: ERROR occurred in service.videos.saveVideo()  ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+ Error: ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\node_modules\fluent-ffmpeg\lib\processor.js:180:22)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-04-09 12:03:46 server.ts[info]: endTransaction() 
+2025-04-09 12:03:46 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:03:46 server.ts[info]: ::1 - - [09/Apr/2025:06:33:46 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 104
+ 
+2025-04-09 12:03:50 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:03:50 server.ts[info]: service.videos.saveVideo()  
+2025-04-09 12:03:50 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:03:50 server.ts[info]: sqlConnection() 
+2025-04-09 12:03:50 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:03:51 server.ts[info]: rollBackTransaction() 
+2025-04-09 12:03:51 server.ts[error]: ERROR occurred in service.videos.saveVideo()  ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+ Error: ffmpeg exited with code 4294967274: Error opening output file /dev/null.
+Error opening output files: Invalid argument
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\node_modules\fluent-ffmpeg\lib\processor.js:180:22)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-04-09 12:03:51 server.ts[info]: endTransaction() 
+2025-04-09 12:03:51 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:03:51 server.ts[info]: ::1 - - [09/Apr/2025:06:33:51 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 104
+ 
+2025-04-09 12:38:46 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:38:46 server.ts[info]: sqlConnection() 
+2025-04-09 12:38:46 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:38:46 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:38:46 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:38:47 server.ts[info]: initializeRoutes() 
+2025-04-09 12:38:47 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:40:34 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:40:34 server.ts[info]: sqlConnection() 
+2025-04-09 12:40:34 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:40:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:40:35 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:40:35 server.ts[info]: initializeRoutes() 
+2025-04-09 12:40:35 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:41:17 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:41:17 server.ts[info]: sqlConnection() 
+2025-04-09 12:41:17 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:41:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:41:17 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:41:17 server.ts[info]: initializeRoutes() 
+2025-04-09 12:41:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:41:40 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:41:40 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 12:41:40 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:41:40 server.ts[info]: sqlConnection() 
+2025-04-09 12:41:40 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:41:41 server.ts[info]: rollBackTransaction() 
+2025-04-09 12:41:41 server.ts[error]: ERROR occurred in service.videos.saveVideo()  relation "videos" does not exist error: relation "videos" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:41:41 server.ts[info]: endTransaction() 
+2025-04-09 12:41:41 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:41:41 server.ts[info]: ::1 - - [09/Apr/2025:07:11:41 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-09 12:42:17 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:42:17 server.ts[info]: sqlConnection() 
+2025-04-09 12:42:17 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:42:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:42:17 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:42:17 server.ts[info]: initializeRoutes() 
+2025-04-09 12:42:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:42:20 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:42:20 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 12:42:20 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:42:20 server.ts[info]: sqlConnection() 
+2025-04-09 12:42:20 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:42:21 server.ts[info]: FFmpeg started: ffmpeg -i uploads\663ff6c83ff380e42893b5dc0c85edd4 -y -an -f null NUL 
+2025-04-09 12:42:21 server.ts[info]: Video processing started... 
+2025-04-09 12:42:29 server.ts[info]: Video processing completed 
+2025-04-09 12:42:29 server.ts[info]: commitTransaction() 
+2025-04-09 12:42:29 server.ts[info]: endTransaction() 
+2025-04-09 12:42:29 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:42:29 server.ts[info]: ::1 - - [09/Apr/2025:07:12:29 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 12:44:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:44:21 server.ts[info]: sqlConnection() 
+2025-04-09 12:44:21 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:44:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:44:22 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:44:22 server.ts[info]: initializeRoutes() 
+2025-04-09 12:44:22 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:44:30 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:44:30 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 12:44:30 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:44:30 server.ts[info]: sqlConnection() 
+2025-04-09 12:44:30 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:44:32 server.ts[info]: FFmpeg started: ffmpeg -i uploads\65de98cba638cfce593222c4c609b76a -y -an -f null NUL 
+2025-04-09 12:44:32 server.ts[info]: Video processing started... 
+2025-04-09 12:44:41 server.ts[info]: Video processing completed 
+2025-04-09 12:44:41 server.ts[info]: commitTransaction() 
+2025-04-09 12:44:41 server.ts[info]: endTransaction() 
+2025-04-09 12:44:41 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:44:41 server.ts[info]: ::1 - - [09/Apr/2025:07:14:41 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 12:46:52 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:46:52 server.ts[info]: sqlConnection() 
+2025-04-09 12:46:52 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:46:52 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:46:52 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:46:52 server.ts[info]: initializeRoutes() 
+2025-04-09 12:46:52 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:47:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 12:47:21 server.ts[info]: sqlConnection() 
+2025-04-09 12:47:21 server.ts[info]: initializationExpressServer() 
+2025-04-09 12:47:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 12:47:22 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 12:47:22 server.ts[info]: initializeRoutes() 
+2025-04-09 12:47:22 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 12:47:24 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 12:47:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 12:47:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 12:47:24 server.ts[info]: sqlConnection() 
+2025-04-09 12:47:24 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 12:47:25 server.ts[info]: FFmpeg started: ffmpeg -i uploads\9e097354c8d46a8d4aed972e102c6138 -y -an -f null NUL 
+2025-04-09 12:47:25 server.ts[info]: Video processing started... 
+2025-04-09 12:47:33 server.ts[info]: Video processing completed 
+2025-04-09 12:47:33 server.ts[info]: commitTransaction() 
+2025-04-09 12:47:33 server.ts[info]: endTransaction() 
+2025-04-09 12:47:33 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 12:47:33 server.ts[info]: ::1 - - [09/Apr/2025:07:17:33 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 18:44:28 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 18:44:28 server.ts[info]: sqlConnection() 
+2025-04-09 18:44:28 server.ts[info]: initializationExpressServer() 
+2025-04-09 18:44:28 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 18:44:29 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 18:44:29 server.ts[info]: initializeRoutes() 
+2025-04-09 18:44:29 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 18:48:39 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 18:48:39 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 18:48:41 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 18:48:41 server.ts[info]: sqlConnection() 
+2025-04-09 18:48:43 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 18:48:44 server.ts[info]: rollBackTransaction() 
+2025-04-09 18:48:44 server.ts[error]: ERROR occurred in service.videos.saveVideo()  Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ Error: Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:103:20)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-09 18:48:44 server.ts[info]: endTransaction() 
+2025-04-09 18:48:44 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 18:48:44 server.ts[info]: ::1 - - [09/Apr/2025:13:18:44 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-09 19:01:00 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 19:01:00 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 19:01:00 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 19:01:00 server.ts[info]: sqlConnection() 
+2025-04-09 19:01:00 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 19:01:01 server.ts[info]: rollBackTransaction() 
+2025-04-09 19:01:01 server.ts[error]: ERROR occurred in service.videos.saveVideo()  Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ Error: Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:103:20)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-09 19:01:01 server.ts[info]: endTransaction() 
+2025-04-09 19:01:01 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 19:01:01 server.ts[info]: ::1 - - [09/Apr/2025:13:31:01 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-09 20:22:27 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 20:22:27 server.ts[info]: sqlConnection() 
+2025-04-09 20:22:27 server.ts[info]: initializationExpressServer() 
+2025-04-09 20:22:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 20:22:27 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 20:22:27 server.ts[info]: initializeRoutes() 
+2025-04-09 20:22:28 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 20:22:35 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 20:22:35 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 20:22:35 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 20:22:35 server.ts[info]: sqlConnection() 
+2025-04-09 20:22:35 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 20:22:37 server.ts[info]: rollBackTransaction() 
+2025-04-09 20:22:37 server.ts[error]: ERROR occurred in service.videos.saveVideo()  Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ Error: Video processing failed with code 9009: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:103:20)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-09 20:22:37 server.ts[info]: endTransaction() 
+2025-04-09 20:22:37 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 20:22:37 server.ts[info]: ::1 - - [09/Apr/2025:14:52:37 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-09 20:55:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 20:55:56 server.ts[info]: sqlConnection() 
+2025-04-09 20:55:56 server.ts[info]: initializationExpressServer() 
+2025-04-09 20:55:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 20:55:56 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 20:55:56 server.ts[info]: initializeRoutes() 
+2025-04-09 20:55:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:12:39 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:12:39 server.ts[info]: sqlConnection() 
+2025-04-09 21:12:39 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:12:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:12:39 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:12:39 server.ts[info]: initializeRoutes() 
+2025-04-09 21:12:39 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:14:12 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:14:12 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:14:12 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:14:12 server.ts[info]: sqlConnection() 
+2025-04-09 21:14:12 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:14:12 server.ts[info]: commitTransaction() 
+2025-04-09 21:14:12 server.ts[info]: endTransaction() 
+2025-04-09 21:14:12 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:14:12 server.ts[info]: ::1 - - [09/Apr/2025:15:44:12 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:15:15 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:15:15 server.ts[info]: sqlConnection() 
+2025-04-09 21:15:15 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:15:15 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:15:15 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:15:15 server.ts[info]: initializeRoutes() 
+2025-04-09 21:15:16 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:17:01 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:17:01 server.ts[info]: sqlConnection() 
+2025-04-09 21:17:01 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:17:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:17:01 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:17:01 server.ts[info]: initializeRoutes() 
+2025-04-09 21:17:01 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:17:08 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:17:08 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:17:08 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:17:08 server.ts[info]: sqlConnection() 
+2025-04-09 21:17:09 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:17:09 server.ts[info]: commitTransaction() 
+2025-04-09 21:17:09 server.ts[info]: endTransaction() 
+2025-04-09 21:17:09 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:17:09 server.ts[info]: ::1 - - [09/Apr/2025:15:47:09 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:18:33 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:18:33 server.ts[info]: sqlConnection() 
+2025-04-09 21:18:33 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:18:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:18:33 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:18:33 server.ts[info]: initializeRoutes() 
+2025-04-09 21:18:33 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:18:51 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:18:51 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:18:51 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:18:51 server.ts[info]: sqlConnection() 
+2025-04-09 21:18:51 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:18:51 server.ts[info]: commitTransaction() 
+2025-04-09 21:18:51 server.ts[info]: endTransaction() 
+2025-04-09 21:18:51 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:18:51 server.ts[info]: ::1 - - [09/Apr/2025:15:48:51 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:19:07 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:19:07 server.ts[info]: sqlConnection() 
+2025-04-09 21:19:07 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:19:07 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:19:07 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:19:07 server.ts[info]: initializeRoutes() 
+2025-04-09 21:19:07 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:19:41 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:19:41 server.ts[info]: sqlConnection() 
+2025-04-09 21:19:41 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:19:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:19:41 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:19:41 server.ts[info]: initializeRoutes() 
+2025-04-09 21:19:41 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:19:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:19:56 server.ts[info]: sqlConnection() 
+2025-04-09 21:19:56 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:19:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:19:56 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:19:56 server.ts[info]: initializeRoutes() 
+2025-04-09 21:19:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:20:01 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:20:01 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:20:01 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:20:01 server.ts[info]: sqlConnection() 
+2025-04-09 21:20:01 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:20:01 server.ts[info]: commitTransaction() 
+2025-04-09 21:20:01 server.ts[info]: endTransaction() 
+2025-04-09 21:20:01 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:20:01 server.ts[info]: ::1 - - [09/Apr/2025:15:50:01 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:21:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:21:36 server.ts[info]: sqlConnection() 
+2025-04-09 21:21:36 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:21:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:21:36 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:21:36 server.ts[info]: initializeRoutes() 
+2025-04-09 21:21:36 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:21:51 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:21:51 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:21:51 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:21:51 server.ts[info]: sqlConnection() 
+2025-04-09 21:21:52 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:21:52 server.ts[info]: commitTransaction() 
+2025-04-09 21:21:52 server.ts[info]: endTransaction() 
+2025-04-09 21:21:52 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:21:52 server.ts[info]: ::1 - - [09/Apr/2025:15:51:52 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:23:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:23:19 server.ts[info]: sqlConnection() 
+2025-04-09 21:23:19 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:23:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:23:20 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:23:20 server.ts[info]: initializeRoutes() 
+2025-04-09 21:23:20 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:23:29 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:23:29 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:23:29 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:23:29 server.ts[info]: sqlConnection() 
+2025-04-09 21:23:29 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:23:29 server.ts[info]: commitTransaction() 
+2025-04-09 21:23:29 server.ts[info]: endTransaction() 
+2025-04-09 21:23:29 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:23:29 server.ts[info]: ::1 - - [09/Apr/2025:15:53:29 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 21:24:13 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 21:24:13 server.ts[info]: sqlConnection() 
+2025-04-09 21:24:13 server.ts[info]: initializationExpressServer() 
+2025-04-09 21:24:13 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 21:24:13 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 21:24:13 server.ts[info]: initializeRoutes() 
+2025-04-09 21:24:13 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 21:24:30 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 21:24:30 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 21:24:30 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 21:24:30 server.ts[info]: sqlConnection() 
+2025-04-09 21:24:30 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 21:24:30 server.ts[info]: commitTransaction() 
+2025-04-09 21:24:30 server.ts[info]: endTransaction() 
+2025-04-09 21:24:30 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 21:24:30 server.ts[info]: ::1 - - [09/Apr/2025:15:54:30 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 22:12:59 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 22:12:59 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 22:12:59 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 22:12:59 server.ts[info]: sqlConnection() 
+2025-04-09 22:12:59 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 22:12:59 server.ts[info]: commitTransaction() 
+2025-04-09 22:12:59 server.ts[info]: endTransaction() 
+2025-04-09 22:12:59 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 22:12:59 server.ts[info]: ::1 - - [09/Apr/2025:16:42:59 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 22:14:05 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 22:14:05 server.ts[info]: sqlConnection() 
+2025-04-09 22:14:05 server.ts[info]: initializationExpressServer() 
+2025-04-09 22:14:05 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 22:14:06 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 22:14:06 server.ts[info]: initializeRoutes() 
+2025-04-09 22:14:06 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-09 22:14:13 server.ts[info]: controller.videos.saveVideo()  
+2025-04-09 22:14:13 server.ts[info]: service.videos.saveVideo() 
+2025-04-09 22:14:13 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-09 22:14:13 server.ts[info]: sqlConnection() 
+2025-04-09 22:14:13 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-09 22:14:13 server.ts[info]: commitTransaction() 
+2025-04-09 22:14:13 server.ts[info]: endTransaction() 
+2025-04-09 22:14:13 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-09 22:14:13 server.ts[info]: ::1 - - [09/Apr/2025:16:44:13 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 55
+ 
+2025-04-09 22:15:45 server.ts[info]: STARTED Validation of env variables! 
+2025-04-09 22:15:45 server.ts[info]: sqlConnection() 
+2025-04-09 22:15:45 server.ts[info]: initializationExpressServer() 
+2025-04-09 22:15:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-09 22:15:46 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-09 22:15:46 server.ts[info]: initializeRoutes() 
+2025-04-09 22:15:46 server.ts[info]: SERVER listening on PORT:3201 

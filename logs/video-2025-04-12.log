@@ -1,0 +1,306 @@
+2025-04-12 01:29:34 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:29:34 server.ts[info]: sqlConnection() 
+2025-04-12 01:29:34 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:29:34 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:29:34 server.ts[info]: initializeRoutes() 
+2025-04-12 01:29:34 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:29:55 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:29:55 server.ts[info]: sqlConnection() 
+2025-04-12 01:29:55 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:29:55 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:29:55 server.ts[info]: initializeRoutes() 
+2025-04-12 01:29:55 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:30:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:30:19 server.ts[info]: sqlConnection() 
+2025-04-12 01:30:19 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:30:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:30:19 server.ts[info]: initializeRoutes() 
+2025-04-12 01:30:19 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:30:45 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:30:45 server.ts[info]: sqlConnection() 
+2025-04-12 01:30:45 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:30:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:30:45 server.ts[info]: initializeRoutes() 
+2025-04-12 01:30:45 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:31:02 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:31:02 server.ts[info]: sqlConnection() 
+2025-04-12 01:31:02 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:31:02 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:31:02 server.ts[info]: initializeRoutes() 
+2025-04-12 01:31:02 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:32:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:32:21 server.ts[info]: sqlConnection() 
+2025-04-12 01:32:21 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:32:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:32:21 server.ts[info]: initializeRoutes() 
+2025-04-12 01:32:21 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:34:07 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:34:07 server.ts[info]: sqlConnection() 
+2025-04-12 01:34:07 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:34:07 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:34:07 server.ts[info]: initializeRoutes() 
+2025-04-12 01:34:07 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:36:20 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:36:20 server.ts[info]: sqlConnection() 
+2025-04-12 01:36:20 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:36:20 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:36:20 server.ts[info]: initializeRoutes() 
+2025-04-12 01:36:20 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:36:39 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:36:39 server.ts[info]: sqlConnection() 
+2025-04-12 01:36:39 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:36:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:36:39 server.ts[info]: initializeRoutes() 
+2025-04-12 01:36:39 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 01:36:51 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 01:36:51 server.ts[info]: sqlConnection() 
+2025-04-12 01:36:51 server.ts[info]: initializationExpressServer() 
+2025-04-12 01:36:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 01:36:51 server.ts[info]: initializeRoutes() 
+2025-04-12 01:36:51 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 11:55:13 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 11:55:13 server.ts[info]: sqlConnection() 
+2025-04-12 11:55:13 server.ts[info]: initializationExpressServer() 
+2025-04-12 11:55:13 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 11:55:13 server.ts[info]: initializeRoutes() 
+2025-04-12 11:55:13 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 11:55:17 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 11:55:19 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 11:55:19 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 11:55:19 server.ts[info]: sqlConnection() 
+2025-04-12 11:55:19 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 11:55:19 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 11:55:19 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 11:55:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 11:55:23 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 11:55:23 server.ts[info]: STARTED saveRecord() 
+2025-04-12 11:55:23 server.ts[error]: ERROR in saveRecord() syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 11:55:23 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 11:55:23 server.ts[info]: rollBackTransaction() 
+2025-04-12 11:55:23 server.ts[error]: ERROR in service.videos.saveVideo(): syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 11:55:23 server.ts[info]: endTransaction() 
+2025-04-12 11:55:23 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 11:55:23 server.ts[info]: ::1 - - [12/Apr/2025:06:25:23 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 88
+ 
+2025-04-12 12:14:23 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:14:23 server.ts[info]: sqlConnection() 
+2025-04-12 12:14:23 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:14:23 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:14:23 server.ts[info]: initializeRoutes() 
+2025-04-12 12:14:23 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:16:03 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:16:06 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:16:06 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:16:06 server.ts[info]: sqlConnection() 
+2025-04-12 12:16:06 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:16:06 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:16:06 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:16:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:16:10 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:16:10 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:16:10 server.ts[error]: ERROR in saveRecord() syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:16:10 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:16:10 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:16:10 server.ts[error]: ERROR in service.videos.saveVideo(): syntax error at or near "," error: syntax error at or near ","
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:16:10 server.ts[info]: endTransaction() 
+2025-04-12 12:16:10 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:16:10 server.ts[info]: ::1 - - [12/Apr/2025:06:46:10 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 88
+ 
+2025-04-12 12:27:14 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:27:14 server.ts[info]: sqlConnection() 
+2025-04-12 12:27:14 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:27:14 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:27:14 server.ts[info]: initializeRoutes() 
+2025-04-12 12:27:14 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:27:23 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:27:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:27:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:27:24 server.ts[info]: sqlConnection() 
+2025-04-12 12:27:24 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:27:24 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:27:24 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:27:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:27:28 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:27:28 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:27:28 server.ts[error]: ERROR in saveRecord() relation "video_details" does not exist error: relation "video_details" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:27:28 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  relation "video_details" does not exist error: relation "video_details" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:27:28 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:27:28 server.ts[error]: ERROR in service.videos.saveVideo(): relation "video_details" does not exist error: relation "video_details" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:27:28 server.ts[info]: endTransaction() 
+2025-04-12 12:27:28 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:27:28 server.ts[info]: ::1 - - [12/Apr/2025:06:57:28 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 100
+ 
+2025-04-12 12:33:34 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:33:34 server.ts[info]: sqlConnection() 
+2025-04-12 12:33:34 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:33:34 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:33:34 server.ts[info]: initializeRoutes() 
+2025-04-12 12:33:34 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:33:44 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:33:45 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:33:45 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:33:45 server.ts[info]: sqlConnection() 
+2025-04-12 12:33:45 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:33:45 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:33:45 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:33:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:33:49 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:33:49 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:33:49 server.ts[error]: ERROR in saveRecord() column "videofile_id" does not exist error: column "videofile_id" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:33:49 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  column "videofile_id" does not exist error: column "videofile_id" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:33:49 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:33:49 server.ts[error]: ERROR in service.videos.saveVideo(): column "videofile_id" does not exist error: column "videofile_id" does not exist
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:33:49 server.ts[info]: endTransaction() 
+2025-04-12 12:33:49 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:33:49 server.ts[info]: ::1 - - [12/Apr/2025:07:03:49 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 97
+ 
+2025-04-12 12:35:00 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:35:00 server.ts[info]: sqlConnection() 
+2025-04-12 12:35:00 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:35:00 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:35:00 server.ts[info]: initializeRoutes() 
+2025-04-12 12:35:00 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:35:05 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:35:07 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:35:07 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:35:07 server.ts[info]: sqlConnection() 
+2025-04-12 12:35:07 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:35:07 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:35:07 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:35:07 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:35:11 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:35:11 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:35:11 server.ts[error]: ERROR in saveRecord() null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:11 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:11 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:35:11 server.ts[error]: ERROR in service.videos.saveVideo(): null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:11 server.ts[info]: endTransaction() 
+2025-04-12 12:35:11 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:35:11 server.ts[info]: ::1 - - [12/Apr/2025:07:05:11 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 152
+ 
+2025-04-12 12:35:14 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:35:16 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:35:16 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:35:16 server.ts[info]: sqlConnection() 
+2025-04-12 12:35:16 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:35:16 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:35:16 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:35:16 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:35:20 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:35:20 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:35:20 server.ts[error]: ERROR in saveRecord() null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:20 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:20 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:35:20 server.ts[error]: ERROR in service.videos.saveVideo(): null value in column "s3_bucket" of relation "video_details" violates not-null constraint error: null value in column "s3_bucket" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:35:20 server.ts[info]: endTransaction() 
+2025-04-12 12:35:20 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:35:20 server.ts[info]: ::1 - - [12/Apr/2025:07:05:20 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 152
+ 
+2025-04-12 12:36:47 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:36:47 server.ts[info]: sqlConnection() 
+2025-04-12 12:36:47 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:36:47 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:36:47 server.ts[info]: initializeRoutes() 
+2025-04-12 12:36:47 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:36:56 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:36:58 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:36:58 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:36:58 server.ts[info]: sqlConnection() 
+2025-04-12 12:36:58 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:36:58 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:36:58 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:36:58 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:37:01 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:37:01 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:37:01 server.ts[error]: ERROR in saveRecord() null value in column "created_at" of relation "video_details" violates not-null constraint error: null value in column "created_at" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:37:01 server.ts[error]: ERROR occurred in datasources.pgsql.query_handlers.lib.video.saveVideoDetails()  null value in column "created_at" of relation "video_details" violates not-null constraint error: null value in column "created_at" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:37:01 server.ts[info]: rollBackTransaction() 
+2025-04-12 12:37:01 server.ts[error]: ERROR in service.videos.saveVideo(): null value in column "created_at" of relation "video_details" violates not-null constraint error: null value in column "created_at" of relation "video_details" violates not-null constraint
+    at D:\video-processing-system\server\node_modules\pg\lib\client.js:545:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-12 12:37:01 server.ts[info]: endTransaction() 
+2025-04-12 12:37:01 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:37:01 server.ts[info]: ::1 - - [12/Apr/2025:07:07:01 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 153
+ 
+2025-04-12 12:42:59 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:43:00 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:43:00 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:43:00 server.ts[info]: sqlConnection() 
+2025-04-12 12:43:01 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:43:01 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:43:01 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:43:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:43:04 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:43:04 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:43:05 server.ts[info]: commitTransaction() 
+2025-04-12 12:43:05 server.ts[info]: endTransaction() 
+2025-04-12 12:43:05 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:43:05 server.ts[info]: ::1 - - [12/Apr/2025:07:13:05 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-12 12:43:50 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:43:50 server.ts[info]: sqlConnection() 
+2025-04-12 12:43:50 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:43:50 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:43:50 server.ts[info]: initializeRoutes() 
+2025-04-12 12:43:50 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-12 12:43:55 server.ts[info]: controller.videos.saveVideo()  
+2025-04-12 12:43:56 server.ts[info]: service.videos.saveVideo() 
+2025-04-12 12:43:56 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-12 12:43:56 server.ts[info]: sqlConnection() 
+2025-04-12 12:43:56 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-12 12:43:56 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-12 12:43:56 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-12 12:43:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:43:58 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-12 12:43:58 server.ts[info]: STARTED saveRecord() 
+2025-04-12 12:43:58 server.ts[info]: commitTransaction() 
+2025-04-12 12:43:58 server.ts[info]: endTransaction() 
+2025-04-12 12:43:58 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-12 12:43:59 server.ts[info]: ::1 - - [12/Apr/2025:07:13:59 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 119
+ 
+2025-04-12 12:44:33 server.ts[info]: STARTED Validation of env variables! 
+2025-04-12 12:44:33 server.ts[info]: sqlConnection() 
+2025-04-12 12:44:33 server.ts[info]: initializationExpressServer() 
+2025-04-12 12:44:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-12 12:44:33 server.ts[info]: initializeRoutes() 
+2025-04-12 12:44:33 server.ts[info]: SERVER listening on PORT:3201 

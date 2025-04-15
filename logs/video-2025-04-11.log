@@ -1,0 +1,662 @@
+2025-04-11 03:13:20 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 03:13:20 server.ts[info]: sqlConnection() 
+2025-04-11 03:13:20 server.ts[info]: initializationExpressServer() 
+2025-04-11 03:13:20 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 03:13:20 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 03:13:20 server.ts[info]: initializeRoutes() 
+2025-04-11 03:13:20 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 03:15:30 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 03:15:30 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 03:15:30 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 03:15:30 server.ts[info]: sqlConnection() 
+2025-04-11 03:15:30 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 03:15:31 server.ts[info]: commitTransaction() 
+2025-04-11 03:15:31 server.ts[info]: endTransaction() 
+2025-04-11 03:15:31 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 03:15:31 server.ts[info]: ::1 - - [10/Apr/2025:21:45:31 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 03:52:37 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 03:52:37 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 03:52:37 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 03:52:37 server.ts[info]: sqlConnection() 
+2025-04-11 03:52:37 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 03:52:37 server.ts[info]: commitTransaction() 
+2025-04-11 03:52:37 server.ts[info]: endTransaction() 
+2025-04-11 03:52:37 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 03:52:37 server.ts[info]: ::1 - - [10/Apr/2025:22:22:37 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 04:01:21 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 04:01:21 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 04:01:21 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 04:01:21 server.ts[info]: sqlConnection() 
+2025-04-11 04:01:21 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 04:01:21 server.ts[info]: commitTransaction() 
+2025-04-11 04:01:21 server.ts[info]: endTransaction() 
+2025-04-11 04:01:21 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 04:01:21 server.ts[info]: ::1 - - [10/Apr/2025:22:31:21 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 04:01:55 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 04:01:55 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 04:01:55 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 04:01:55 server.ts[info]: sqlConnection() 
+2025-04-11 04:01:56 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 04:01:56 server.ts[info]: commitTransaction() 
+2025-04-11 04:01:56 server.ts[info]: endTransaction() 
+2025-04-11 04:01:56 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 04:01:56 server.ts[info]: ::1 - - [10/Apr/2025:22:31:56 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 04:02:56 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 04:02:56 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 04:02:56 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 04:02:56 server.ts[info]: sqlConnection() 
+2025-04-11 04:02:56 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 04:02:56 server.ts[info]: commitTransaction() 
+2025-04-11 04:02:56 server.ts[info]: endTransaction() 
+2025-04-11 04:02:56 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 04:02:56 server.ts[info]: ::1 - - [10/Apr/2025:22:32:56 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 17:03:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 17:03:19 server.ts[info]: sqlConnection() 
+2025-04-11 17:03:19 server.ts[info]: initializationExpressServer() 
+2025-04-11 17:03:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 17:03:19 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 17:03:19 server.ts[info]: initializeRoutes() 
+2025-04-11 17:03:19 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 17:04:24 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 17:04:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 17:04:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 17:04:24 server.ts[info]: sqlConnection() 
+2025-04-11 17:04:25 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 17:04:25 server.ts[info]: commitTransaction() 
+2025-04-11 17:04:25 server.ts[info]: endTransaction() 
+2025-04-11 17:04:25 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 17:04:25 server.ts[info]: ::1 - - [11/Apr/2025:11:34:25 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 17:07:40 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 17:07:40 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 17:07:40 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 17:07:40 server.ts[info]: sqlConnection() 
+2025-04-11 17:07:40 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 17:07:40 server.ts[info]: commitTransaction() 
+2025-04-11 17:07:40 server.ts[info]: endTransaction() 
+2025-04-11 17:07:40 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 17:07:40 server.ts[info]: ::1 - - [11/Apr/2025:11:37:40 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 17:08:23 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 17:08:23 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 17:08:23 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 17:08:23 server.ts[info]: sqlConnection() 
+2025-04-11 17:08:23 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 17:08:23 server.ts[info]: commitTransaction() 
+2025-04-11 17:08:23 server.ts[info]: endTransaction() 
+2025-04-11 17:08:23 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 17:08:23 server.ts[info]: ::1 - - [11/Apr/2025:11:38:23 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 17:51:16 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 17:51:17 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 17:51:17 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 17:51:17 server.ts[info]: sqlConnection() 
+2025-04-11 17:51:19 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 17:51:19 server.ts[info]: commitTransaction() 
+2025-04-11 17:51:19 server.ts[info]: endTransaction() 
+2025-04-11 17:51:19 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 17:51:19 server.ts[info]: ::1 - - [11/Apr/2025:12:21:19 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 18:08:52 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 18:08:52 server.ts[info]: sqlConnection() 
+2025-04-11 18:08:52 server.ts[info]: initializationExpressServer() 
+2025-04-11 18:08:52 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 18:08:52 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 18:08:52 server.ts[info]: initializeRoutes() 
+2025-04-11 18:08:52 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 18:10:06 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 18:10:06 server.ts[info]: sqlConnection() 
+2025-04-11 18:10:06 server.ts[info]: initializationExpressServer() 
+2025-04-11 18:10:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 18:10:06 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 18:10:06 server.ts[info]: initializeRoutes() 
+2025-04-11 18:10:06 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 18:11:01 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 18:11:01 server.ts[info]: sqlConnection() 
+2025-04-11 18:11:01 server.ts[info]: initializationExpressServer() 
+2025-04-11 18:11:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 18:11:01 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 18:11:01 server.ts[info]: initializeRoutes() 
+2025-04-11 18:11:01 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 18:12:22 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 18:12:22 server.ts[info]: sqlConnection() 
+2025-04-11 18:12:22 server.ts[info]: initializationExpressServer() 
+2025-04-11 18:12:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 18:12:22 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 18:12:22 server.ts[info]: initializeRoutes() 
+2025-04-11 18:12:22 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 18:13:06 server.ts[info]: middlewares.file_upload.fileReader(): Multer error. Unexpected field MulterError: Unexpected field
+    at wrappedFileFilter (D:\video-processing-system\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\video-processing-system\server\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:524:28)
+    at Multipart.emit (node:domain:489:12)
+    at HeaderParser.cb (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-04-11 18:13:06 server.ts[info]: ::1 - - [11/Apr/2025:12:43:06 +0000] "POST /api/v1/video/upload HTTP/1.1" 400 28
+ 
+2025-04-11 19:56:08 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 19:56:08 server.ts[info]: sqlConnection() 
+2025-04-11 19:56:08 server.ts[info]: initializationExpressServer() 
+2025-04-11 19:56:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 19:56:08 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 19:56:08 server.ts[info]: initializeRoutes() 
+2025-04-11 19:56:08 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 19:56:58 server.ts[info]: middlewares.file_upload.fileReader(): Multer error. Unexpected field MulterError: Unexpected field
+    at wrappedFileFilter (D:\video-processing-system\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\video-processing-system\server\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:524:28)
+    at Multipart.emit (node:domain:489:12)
+    at HeaderParser.cb (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-04-11 19:56:58 server.ts[info]: ::1 - - [11/Apr/2025:14:26:58 +0000] "POST /api/v1/video/upload HTTP/1.1" 400 28
+ 
+2025-04-11 19:58:06 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 19:58:06 server.ts[info]: sqlConnection() 
+2025-04-11 19:58:06 server.ts[info]: initializationExpressServer() 
+2025-04-11 19:58:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 19:58:06 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 19:58:06 server.ts[info]: initializeRoutes() 
+2025-04-11 19:58:06 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 19:58:50 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 19:58:50 server.ts[info]: sqlConnection() 
+2025-04-11 19:58:50 server.ts[info]: initializationExpressServer() 
+2025-04-11 19:58:50 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 19:58:50 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 19:58:50 server.ts[info]: initializeRoutes() 
+2025-04-11 19:58:50 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 20:03:00 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 20:03:00 server.ts[info]: sqlConnection() 
+2025-04-11 20:03:00 server.ts[info]: initializationExpressServer() 
+2025-04-11 20:03:00 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 20:03:00 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 20:03:00 server.ts[info]: initializeRoutes() 
+2025-04-11 20:03:00 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 20:03:10 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 20:03:10 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 20:03:10 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 20:03:10 server.ts[info]: sqlConnection() 
+2025-04-11 20:03:11 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 20:03:13 server.ts[info]: commitTransaction() 
+2025-04-11 20:03:13 server.ts[info]: endTransaction() 
+2025-04-11 20:03:13 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 20:03:13 server.ts[info]: ::1 - - [11/Apr/2025:14:33:13 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 20:03:39 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 20:03:39 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 20:03:39 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 20:03:39 server.ts[info]: sqlConnection() 
+2025-04-11 20:03:39 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 20:03:39 server.ts[info]: commitTransaction() 
+2025-04-11 20:03:39 server.ts[info]: endTransaction() 
+2025-04-11 20:03:39 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 20:03:39 server.ts[info]: ::1 - - [11/Apr/2025:14:33:39 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 20:04:45 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 20:04:45 server.ts[info]: sqlConnection() 
+2025-04-11 20:04:45 server.ts[info]: initializationExpressServer() 
+2025-04-11 20:04:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 20:04:45 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 20:04:45 server.ts[info]: initializeRoutes() 
+2025-04-11 20:04:45 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 20:04:55 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 20:04:57 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 20:04:57 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 20:04:57 server.ts[info]: sqlConnection() 
+2025-04-11 20:04:57 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 20:04:57 server.ts[info]: commitTransaction() 
+2025-04-11 20:04:57 server.ts[info]: endTransaction() 
+2025-04-11 20:04:57 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 20:04:57 server.ts[info]: ::1 - - [11/Apr/2025:14:34:57 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 20:05:07 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 20:05:09 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 20:05:09 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 20:05:09 server.ts[info]: sqlConnection() 
+2025-04-11 20:05:09 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 20:05:09 server.ts[info]: commitTransaction() 
+2025-04-11 20:05:09 server.ts[info]: endTransaction() 
+2025-04-11 20:05:09 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 20:05:09 server.ts[info]: ::1 - - [11/Apr/2025:14:35:09 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 20:06:06 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 20:06:06 server.ts[info]: sqlConnection() 
+2025-04-11 20:06:06 server.ts[info]: initializationExpressServer() 
+2025-04-11 20:06:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 20:06:06 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 20:06:06 server.ts[info]: initializeRoutes() 
+2025-04-11 20:06:06 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 20:38:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 20:38:36 server.ts[info]: sqlConnection() 
+2025-04-11 20:38:36 server.ts[info]: initializationExpressServer() 
+2025-04-11 20:38:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 20:38:36 server.ts[info]: initializeRoutes() 
+2025-04-11 20:38:36 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:18:38 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:18:38 server.ts[info]: sqlConnection() 
+2025-04-11 22:18:38 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:18:38 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:18:38 server.ts[info]: initializeRoutes() 
+2025-04-11 22:18:38 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:18:48 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:18:49 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:18:49 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:18:49 server.ts[info]: sqlConnection() 
+2025-04-11 22:18:50 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:18:50 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:18:50 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:18:50 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:18:50 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:18:50 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:18:50 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:18:50 server.ts[error]: ERROR in service.videos.saveVideo(): Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:18:50 server.ts[info]: endTransaction() 
+2025-04-11 22:18:50 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:18:50 server.ts[info]: ::1 - - [11/Apr/2025:16:48:50 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 104
+ 
+2025-04-11 22:21:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:21:36 server.ts[info]: sqlConnection() 
+2025-04-11 22:21:36 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:21:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:21:36 server.ts[info]: initializeRoutes() 
+2025-04-11 22:21:36 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:23:48 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:23:48 server.ts[info]: sqlConnection() 
+2025-04-11 22:23:48 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:23:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:23:48 server.ts[info]: initializeRoutes() 
+2025-04-11 22:23:48 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:23:55 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:23:57 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:23:57 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:23:57 server.ts[info]: sqlConnection() 
+2025-04-11 22:23:57 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:23:57 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:23:57 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:23:57 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:23:57 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:23:57 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:23:57 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:23:57 server.ts[error]: ERROR in service.videos.saveVideo(): Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:23:57 server.ts[info]: endTransaction() 
+2025-04-11 22:23:57 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:23:57 server.ts[info]: ::1 - - [11/Apr/2025:16:53:57 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-11 22:26:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:26:56 server.ts[info]: sqlConnection() 
+2025-04-11 22:26:56 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:26:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:26:56 server.ts[info]: initializeRoutes() 
+2025-04-11 22:26:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:27:02 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:27:04 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:27:04 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:27:04 server.ts[info]: sqlConnection() 
+2025-04-11 22:27:04 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:27:04 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:27:04 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:27:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:27:04 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:27:04 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:27:04 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:27:05 server.ts[error]: ERROR in service.videos.saveVideo(): Empty value provided for input HTTP label: Bucket. Error: Empty value provided for input HTTP label: Bucket.
+    at resolvedPath (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:58:13)
+    at D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:124:19
+    at RequestBuilder.build (D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\submodules\protocols\index.js:90:7)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11 22:27:05 server.ts[info]: endTransaction() 
+2025-04-11 22:27:05 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:27:05 server.ts[info]: ::1 - - [11/Apr/2025:16:57:05 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 109
+ 
+2025-04-11 22:28:27 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:28:27 server.ts[info]: sqlConnection() 
+2025-04-11 22:28:27 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:28:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:28:27 server.ts[info]: initializeRoutes() 
+2025-04-11 22:28:27 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:28:31 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:28:32 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:28:32 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:28:32 server.ts[info]: sqlConnection() 
+2025-04-11 22:28:32 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:28:32 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:28:32 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:28:32 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:28:33 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:28:33 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:28:33 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:28:33 server.ts[error]: ERROR in service.videos.saveVideo(): The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:28:33 server.ts[info]: endTransaction() 
+2025-04-11 22:28:33 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:28:33 server.ts[info]: ::1 - - [11/Apr/2025:16:58:33 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 163
+ 
+2025-04-11 22:30:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:30:36 server.ts[info]: sqlConnection() 
+2025-04-11 22:30:36 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:30:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:30:37 server.ts[info]: initializeRoutes() 
+2025-04-11 22:30:37 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:31:23 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:31:23 server.ts[info]: sqlConnection() 
+2025-04-11 22:31:23 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:31:23 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:31:23 server.ts[info]: initializeRoutes() 
+2025-04-11 22:31:23 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:31:31 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:31:33 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:31:33 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:31:33 server.ts[info]: sqlConnection() 
+2025-04-11 22:31:33 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:31:33 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:31:33 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:31:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:31:33 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:31:33 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:31:33 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:31:33 server.ts[error]: ERROR in service.videos.saveVideo(): The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential. AuthorizationHeaderMalformed: The authorization header is malformed; a non-empty Access Key (AKID) must be provided in the credential.
+    at throwDefaultError (D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:867:20)
+    at D:\video-processing-system\server\node_modules\@smithy\smithy-client\dist-cjs\index.js:876:5
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4952:14)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-flexible-checksums\dist-cjs\index.js:318:18
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+2025-04-11 22:31:33 server.ts[info]: endTransaction() 
+2025-04-11 22:31:33 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:31:33 server.ts[info]: ::1 - - [11/Apr/2025:17:01:33 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 163
+ 
+2025-04-11 22:33:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:33:21 server.ts[info]: sqlConnection() 
+2025-04-11 22:33:21 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:33:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:33:21 server.ts[info]: initializeRoutes() 
+2025-04-11 22:33:21 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:48:27 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 22:48:27 server.ts[info]: sqlConnection() 
+2025-04-11 22:48:27 server.ts[info]: initializationExpressServer() 
+2025-04-11 22:48:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:48:28 server.ts[info]: initializeRoutes() 
+2025-04-11 22:48:28 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 22:49:02 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 22:49:04 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 22:49:04 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 22:49:04 server.ts[info]: sqlConnection() 
+2025-04-11 22:49:04 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 22:49:04 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 22:49:04 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 22:49:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 22:49:04 server.ts[error]: ERROR occurred in helpers.s3_media.saveFileBuffer() Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:49:04 server.ts[error]: ERROR occurred in helpers.s3_media.saveFile() Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:49:04 server.ts[info]: rollBackTransaction() 
+2025-04-11 22:49:04 server.ts[error]: ERROR in service.videos.saveVideo(): Could not load credentials from any providers CredentialsProviderError: Could not load credentials from any providers
+    at D:\video-processing-system\server\node_modules\@aws-sdk\credential-provider-node\dist-cjs\index.js:129:13
+    at D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:99:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async coalesceProvider (D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:126:18)
+    at async D:\video-processing-system\server\node_modules\@smithy\property-provider\dist-cjs\index.js:144:18
+    at async D:\video-processing-system\server\node_modules\@smithy\core\dist-cjs\index.js:85:17
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-11 22:49:04 server.ts[info]: endTransaction() 
+2025-04-11 22:49:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 22:49:05 server.ts[info]: ::1 - - [11/Apr/2025:17:19:05 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 104
+ 
+2025-04-11 23:33:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 23:33:56 server.ts[info]: sqlConnection() 
+2025-04-11 23:33:56 server.ts[info]: initializationExpressServer() 
+2025-04-11 23:33:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:33:56 server.ts[info]: initializeRoutes() 
+2025-04-11 23:33:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 23:35:42 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 23:35:42 server.ts[info]: sqlConnection() 
+2025-04-11 23:35:42 server.ts[info]: initializationExpressServer() 
+2025-04-11 23:35:42 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:35:42 server.ts[info]: initializeRoutes() 
+2025-04-11 23:35:42 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 23:35:48 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 23:35:50 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 23:35:50 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 23:35:50 server.ts[info]: sqlConnection() 
+2025-04-11 23:35:50 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 23:35:50 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 23:35:50 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 23:35:50 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:35:53 server.ts[info]: commitTransaction() 
+2025-04-11 23:35:53 server.ts[info]: endTransaction() 
+2025-04-11 23:35:53 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 23:35:53 server.ts[info]: ::1 - - [11/Apr/2025:18:05:53 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 
+2025-04-11 23:44:51 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 23:44:51 server.ts[info]: sqlConnection() 
+2025-04-11 23:44:51 server.ts[info]: initializationExpressServer() 
+2025-04-11 23:44:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:44:51 server.ts[info]: initializeRoutes() 
+2025-04-11 23:44:51 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 23:46:48 server.ts[info]: STARTED Validation of env variables! 
+2025-04-11 23:46:48 server.ts[info]: sqlConnection() 
+2025-04-11 23:46:48 server.ts[info]: initializationExpressServer() 
+2025-04-11 23:46:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:46:48 server.ts[info]: initializeRoutes() 
+2025-04-11 23:46:48 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-11 23:46:54 server.ts[info]: controller.videos.saveVideo()  
+2025-04-11 23:46:56 server.ts[info]: service.videos.saveVideo() 
+2025-04-11 23:46:56 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-11 23:46:56 server.ts[info]: sqlConnection() 
+2025-04-11 23:47:01 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-11 23:47:06 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-11 23:47:06 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-11 23:47:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-11 23:47:20 server.ts[info]: commitTransaction() 
+2025-04-11 23:47:20 server.ts[info]: endTransaction() 
+2025-04-11 23:47:20 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-11 23:47:20 server.ts[info]: ::1 - - [11/Apr/2025:18:17:20 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 113
+ 

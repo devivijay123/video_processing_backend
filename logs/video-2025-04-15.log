@@ -1,0 +1,995 @@
+2025-04-15 11:20:04 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 11:20:04 server.ts[info]: sqlConnection() 
+2025-04-15 11:20:04 server.ts[info]: initializationExpressServer() 
+2025-04-15 11:20:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:20:04 server.ts[info]: initializeRoutes() 
+2025-04-15 11:20:04 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 11:25:49 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:25:50 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:25:50 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:25:50 server.ts[info]: sqlConnection() 
+2025-04-15 11:25:50 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:25:50 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:25:50 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:25:50 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:25:52 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:25:52 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:25:52 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:25:52 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:26:08 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:26:08 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:26:08 server.ts[info]: commitTransaction() 
+2025-04-15 11:26:08 server.ts[info]: endTransaction() 
+2025-04-15 11:26:08 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:26:08 server.ts[info]: ::1 - - [15/Apr/2025:05:56:08 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 211
+ 
+2025-04-15 11:26:12 server.ts[info]: ::1 - - [15/Apr/2025:05:56:12 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:14 server.ts[info]: ::1 - - [15/Apr/2025:05:56:14 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:16 server.ts[info]: ::1 - - [15/Apr/2025:05:56:16 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:18 server.ts[info]: ::1 - - [15/Apr/2025:05:56:18 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:20 server.ts[info]: ::1 - - [15/Apr/2025:05:56:20 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:22 server.ts[info]: ::1 - - [15/Apr/2025:05:56:22 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:24 server.ts[info]: ::1 - - [15/Apr/2025:05:56:24 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:26 server.ts[info]: ::1 - - [15/Apr/2025:05:56:26 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:28 server.ts[info]: ::1 - - [15/Apr/2025:05:56:28 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:26:30 server.ts[info]: ::1 - - [15/Apr/2025:05:56:30 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-15 11:32:57 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:32:59 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:32:59 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:32:59 server.ts[info]: sqlConnection() 
+2025-04-15 11:32:59 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:32:59 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:32:59 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:32:59 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:33:03 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:33:03 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:33:03 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:33:03 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:33:04 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:33:04 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:33:04 server.ts[info]: commitTransaction() 
+2025-04-15 11:33:04 server.ts[info]: endTransaction() 
+2025-04-15 11:33:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:33:04 server.ts[info]: ::1 - - [15/Apr/2025:06:03:04 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-15 11:33:54 server.ts[info]: ::1 - - [15/Apr/2025:06:03:54 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744696979274-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:33:54 server.ts[info]: ::1 - - [15/Apr/2025:06:03:54 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744696979274-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:33:54 server.ts[info]: ::1 - - [15/Apr/2025:06:03:54 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744696979274-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:33:54 server.ts[info]: ::1 - - [15/Apr/2025:06:03:54 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744696979274-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:33:54 server.ts[info]: ::1 - - [15/Apr/2025:06:03:54 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744696979274-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:34:09 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:34:11 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:34:11 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:34:11 server.ts[info]: sqlConnection() 
+2025-04-15 11:34:11 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:34:11 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:34:11 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:34:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:34:15 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:34:15 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:34:15 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:34:15 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:34:16 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:34:16 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:34:16 server.ts[info]: commitTransaction() 
+2025-04-15 11:34:16 server.ts[info]: endTransaction() 
+2025-04-15 11:34:16 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:34:16 server.ts[info]: ::1 - - [15/Apr/2025:06:04:16 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-15 11:36:01 server.ts[info]: ::1 - - [15/Apr/2025:06:06:01 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744697051290-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:36:57 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:36:58 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:36:58 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:36:58 server.ts[info]: sqlConnection() 
+2025-04-15 11:36:58 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:36:58 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:36:58 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:36:58 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:37:03 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:37:03 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:37:03 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:37:03 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:37:04 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:37:04 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:37:04 server.ts[info]: commitTransaction() 
+2025-04-15 11:37:04 server.ts[info]: endTransaction() 
+2025-04-15 11:37:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:37:04 server.ts[info]: ::1 - - [15/Apr/2025:06:07:04 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-15 11:37:09 server.ts[info]: ::1 - - [15/Apr/2025:06:07:09 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:11 server.ts[info]: ::1 - - [15/Apr/2025:06:07:11 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:13 server.ts[info]: ::1 - - [15/Apr/2025:06:07:13 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:15 server.ts[info]: ::1 - - [15/Apr/2025:06:07:15 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:17 server.ts[info]: ::1 - - [15/Apr/2025:06:07:17 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:19 server.ts[info]: ::1 - - [15/Apr/2025:06:07:19 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:21 server.ts[info]: ::1 - - [15/Apr/2025:06:07:21 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:23 server.ts[info]: ::1 - - [15/Apr/2025:06:07:23 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:25 server.ts[info]: ::1 - - [15/Apr/2025:06:07:25 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:37:27 server.ts[info]: ::1 - - [15/Apr/2025:06:07:27 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:42:03 server.ts[info]: ::1 - - [15/Apr/2025:06:12:03 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:43:00 server.ts[info]: ::1 - - [15/Apr/2025:06:13:00 +0000] "GET /api/v1/video/upload/ HTTP/1.1" 404 159
+ 
+2025-04-15 11:43:07 server.ts[info]: ::1 - - [15/Apr/2025:06:13:07 +0000] "GET /ap1/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 11:44:22 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:44:22 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:44:22 server.ts[error]: ERROR occurred in controller.videos.saveVideo()  Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:25:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:37:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:62:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:17:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-15 11:44:22 server.ts[info]: errorHandler() 
+2025-04-15 11:44:22 server.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:25:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:37:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:62:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:17:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-15 11:44:22 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:44:22 server.ts[info]: ::1 - - [15/Apr/2025:06:14:22 +0000] "POST /api/v1/video/upload/ HTTP/1.1" 500 65
+ 
+2025-04-15 11:44:32 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:44:33 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:44:33 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:44:33 server.ts[info]: sqlConnection() 
+2025-04-15 11:44:33 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:44:33 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:44:33 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:44:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:44:37 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:44:37 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:44:37 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:44:37 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:44:38 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:44:38 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:44:38 server.ts[info]: commitTransaction() 
+2025-04-15 11:44:38 server.ts[info]: endTransaction() 
+2025-04-15 11:44:38 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:44:38 server.ts[info]: ::1 - - [15/Apr/2025:06:14:38 +0000] "POST /api/v1/video/upload/ HTTP/1.1" 200 201
+ 
+2025-04-15 11:48:39 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 11:48:41 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 11:48:41 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 11:48:41 server.ts[info]: sqlConnection() 
+2025-04-15 11:48:41 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 11:48:41 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 11:48:41 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 11:48:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 11:48:45 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 11:48:45 server.ts[info]: STARTED saveRecord() 
+2025-04-15 11:48:45 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-15 11:48:45 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 11:48:46 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 11:48:46 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 11:48:46 server.ts[info]: commitTransaction() 
+2025-04-15 11:48:46 server.ts[info]: endTransaction() 
+2025-04-15 11:48:46 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 11:48:46 server.ts[info]: ::1 - - [15/Apr/2025:06:18:46 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-15 11:48:50 server.ts[info]: ::1 - - [15/Apr/2025:06:18:50 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:48:52 server.ts[info]: ::1 - - [15/Apr/2025:06:18:52 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:48:54 server.ts[info]: ::1 - - [15/Apr/2025:06:18:54 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:48:56 server.ts[info]: ::1 - - [15/Apr/2025:06:18:56 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:48:58 server.ts[info]: ::1 - - [15/Apr/2025:06:18:58 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:49:00 server.ts[info]: ::1 - - [15/Apr/2025:06:19:00 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:49:02 server.ts[info]: ::1 - - [15/Apr/2025:06:19:02 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:49:04 server.ts[info]: ::1 - - [15/Apr/2025:06:19:04 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:49:06 server.ts[info]: ::1 - - [15/Apr/2025:06:19:06 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 11:49:08 server.ts[info]: ::1 - - [15/Apr/2025:06:19:08 +0000] "HEAD /ap1/v1/video/upload/convolve_videos/1744697921285-240478_small.mp4 HTTP/1.1" 404 206
+ 
+2025-04-15 13:46:51 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 13:46:51 server.ts[info]: sqlConnection() 
+2025-04-15 13:46:51 server.ts[info]: initializationExpressServer() 
+2025-04-15 13:46:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:46:51 server.ts[info]: initializeRoutes() 
+2025-04-15 13:46:51 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 13:46:55 server.ts[info]: ::1 - - [15/Apr/2025:08:16:55 +0000] "GET /api/v1/video/upload/convolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 13:47:26 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:47:26 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:47:26 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:47:26 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:47:26 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:47:26 server.ts[info]: errorHandler() 
+2025-04-15 13:47:26 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:47:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:47:26 server.ts[info]: ::1 - - [15/Apr/2025:08:17:26 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 13:48:02 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 13:48:02 server.ts[info]: sqlConnection() 
+2025-04-15 13:48:02 server.ts[info]: initializationExpressServer() 
+2025-04-15 13:48:02 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:48:02 server.ts[info]: initializeRoutes() 
+2025-04-15 13:48:02 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 13:48:22 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:48:22 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:48:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:48:22 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:22 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:22 server.ts[info]: errorHandler() 
+2025-04-15 13:48:22 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:22 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:48:22 server.ts[info]: ::1 - - [15/Apr/2025:08:18:22 +0000] "GET /api/v1/video/upload/consolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 13:48:24 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:48:24 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:48:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:48:24 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:24 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:24 server.ts[info]: errorHandler() 
+2025-04-15 13:48:24 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:48:24 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:48:24 server.ts[info]: ::1 - - [15/Apr/2025:08:18:24 +0000] "GET /api/v1/video/upload/consolve_videos/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 13:49:10 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 13:49:10 server.ts[info]: sqlConnection() 
+2025-04-15 13:49:10 server.ts[info]: initializationExpressServer() 
+2025-04-15 13:49:10 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:49:10 server.ts[info]: initializeRoutes() 
+2025-04-15 13:49:10 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 13:50:25 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 13:50:25 server.ts[info]: sqlConnection() 
+2025-04-15 13:50:25 server.ts[info]: initializationExpressServer() 
+2025-04-15 13:50:25 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:50:25 server.ts[info]: initializeRoutes() 
+2025-04-15 13:50:25 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 13:50:29 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:50:29 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:50:29 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:50:29 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:29 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:29 server.ts[info]: errorHandler() 
+2025-04-15 13:50:29 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:29 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:50:29 server.ts[info]: ::1 - - [15/Apr/2025:08:20:29 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 13:50:31 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:50:31 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:50:31 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:50:31 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:31 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:31 server.ts[info]: errorHandler() 
+2025-04-15 13:50:31 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:50:31 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:50:31 server.ts[info]: ::1 - - [15/Apr/2025:08:20:31 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 13:51:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 13:51:19 server.ts[info]: sqlConnection() 
+2025-04-15 13:51:19 server.ts[info]: initializationExpressServer() 
+2025-04-15 13:51:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:51:19 server.ts[info]: initializeRoutes() 
+2025-04-15 13:51:19 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 13:51:25 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 13:51:25 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 13:51:25 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 13:51:26 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:51:26 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:51:26 server.ts[info]: errorHandler() 
+2025-04-15 13:51:26 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 13:51:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 13:51:26 server.ts[info]: ::1 - - [15/Apr/2025:08:21:26 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 14:57:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 14:57:37 server.ts[info]: sqlConnection() 
+2025-04-15 14:57:37 server.ts[info]: initializationExpressServer() 
+2025-04-15 14:57:37 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 14:57:37 server.ts[info]: initializeRoutes() 
+2025-04-15 14:57:37 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 14:57:43 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 14:57:43 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 14:57:43 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 14:57:44 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 14:57:44 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 14:57:44 server.ts[info]: errorHandler() 
+2025-04-15 14:57:44 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 14:57:44 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 14:57:44 server.ts[info]: ::1 - - [15/Apr/2025:09:27:44 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-15 15:03:03 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:03:03 server.ts[info]: sqlConnection() 
+2025-04-15 15:03:03 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:03:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:03:03 server.ts[info]: initializeRoutes() 
+2025-04-15 15:03:03 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:03:17 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:03:17 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:03:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:03:23 server.ts[info]: ::1 - - [15/Apr/2025:09:33:23 +0000] "GET /api/v1/video/upload/1744697218959-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:06:28 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:06:28 server.ts[info]: sqlConnection() 
+2025-04-15 15:06:28 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:06:28 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:06:28 server.ts[info]: initializeRoutes() 
+2025-04-15 15:06:28 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:07:25 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:07:25 server.ts[info]: sqlConnection() 
+2025-04-15 15:07:25 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:07:25 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:07:25 server.ts[info]: initializeRoutes() 
+2025-04-15 15:07:25 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:09:35 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:09:35 server.ts[info]: sqlConnection() 
+2025-04-15 15:09:35 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:09:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:09:35 server.ts[info]: initializeRoutes() 
+2025-04-15 15:09:35 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:10:17 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:10:18 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:10:18 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:10:18 server.ts[info]: sqlConnection() 
+2025-04-15 15:10:18 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:10:18 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:10:18 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:10:18 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:10:21 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:10:21 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:10:21 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:10:21 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:10:26 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:10:26 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:10:26 server.ts[info]: commitTransaction() 
+2025-04-15 15:10:26 server.ts[info]: endTransaction() 
+2025-04-15 15:10:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:10:26 server.ts[info]: ::1 - - [15/Apr/2025:09:40:26 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:11:07 server.ts[info]: ::1 - - [15/Apr/2025:09:41:07 +0000] "GET /api/v1/video/upload/convolve_videos/1744710018741-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 15:11:08 server.ts[info]: ::1 - - [15/Apr/2025:09:41:08 +0000] "GET /api/v1/video/upload/convolve_videos/1744710018741-240478_small.mp4 HTTP/1.1" 404 205
+ 
+2025-04-15 15:18:11 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:18:13 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:18:13 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:18:13 server.ts[info]: sqlConnection() 
+2025-04-15 15:18:13 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:18:13 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:18:13 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:18:13 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:18:15 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:18:15 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:18:15 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:18:15 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:18:16 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:18:16 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:18:16 server.ts[info]: commitTransaction() 
+2025-04-15 15:18:16 server.ts[info]: endTransaction() 
+2025-04-15 15:18:16 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:18:16 server.ts[info]: ::1 - - [15/Apr/2025:09:48:16 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:18:30 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:18:30 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:18:30 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:18:30 server.ts[info]: ::1 - - [15/Apr/2025:09:48:30 +0000] "GET /api/v1/video/upload/undefined HTTP/1.1" - -
+ 
+2025-04-15 15:18:30 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:18:30 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:18:30 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:18:30 server.ts[info]: errorHandler() 
+2025-04-15 15:18:30 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:18:30 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[info]: errorHandler() 
+2025-04-15 15:18:30 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:18:30 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:18:30 server.ts[info]: ::1 - - [15/Apr/2025:09:48:30 +0000] "GET /api/v1/video/upload/undefined HTTP/1.1" 500 65
+ 
+2025-04-15 15:20:05 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:20:07 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:20:07 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:20:07 server.ts[info]: sqlConnection() 
+2025-04-15 15:20:07 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:20:07 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:20:07 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:20:07 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:20:09 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:20:09 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:20:09 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:20:09 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:20:09 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:20:09 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:20:09 server.ts[info]: commitTransaction() 
+2025-04-15 15:20:09 server.ts[info]: endTransaction() 
+2025-04-15 15:20:09 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:20:10 server.ts[info]: ::1 - - [15/Apr/2025:09:50:10 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:22:08 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:08 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:08 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[info]: errorHandler() 
+2025-04-15 15:22:08 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:22:08 server.ts[info]: ::1 - - [15/Apr/2025:09:52:08 +0000] "GET /api/v1/video/upload/undefined HTTP/1.1" 500 65
+ 
+2025-04-15 15:22:08 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:08 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:08 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[info]: errorHandler() 
+2025-04-15 15:22:08 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:08 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:22:08 server.ts[info]: ::1 - - [15/Apr/2025:09:52:08 +0000] "GET /api/v1/video/upload/undefined HTTP/1.1" 500 65
+ 
+2025-04-15 15:22:09 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:09 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:09 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:09 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:09 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:09 server.ts[info]: errorHandler() 
+2025-04-15 15:22:09 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-15 15:22:09 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:22:09 server.ts[info]: ::1 - - [15/Apr/2025:09:52:09 +0000] "GET /api/v1/video/upload/undefined HTTP/1.1" 500 65
+ 
+2025-04-15 15:22:23 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:22:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:22:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:22:24 server.ts[info]: sqlConnection() 
+2025-04-15 15:22:24 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:22:24 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:22:24 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:22:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:28 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:22:28 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:22:28 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:22:28 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:22:29 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:22:29 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:22:29 server.ts[info]: commitTransaction() 
+2025-04-15 15:22:29 server.ts[info]: endTransaction() 
+2025-04-15 15:22:29 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:22:29 server.ts[info]: ::1 - - [15/Apr/2025:09:52:29 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:22:40 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:40 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:40 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:40 server.ts[info]: ::1 - - [15/Apr/2025:09:52:40 +0000] "GET /api/v1/video/upload/1744710744530-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:22:40 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:40 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:40 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:41 server.ts[info]: ::1 - - [15/Apr/2025:09:52:41 +0000] "GET /api/v1/video/upload/1744710744530-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:22:54 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:22:54 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:22:54 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:22:58 server.ts[info]: ::1 - - [15/Apr/2025:09:52:58 +0000] "GET /api/v1/video/upload/1744710744530-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:33:52 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:33:53 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:33:53 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:33:53 server.ts[info]: sqlConnection() 
+2025-04-15 15:33:53 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:33:53 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:33:53 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:33:53 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:33:57 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:33:57 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:33:57 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:33:57 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:33:58 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:33:58 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:33:58 server.ts[info]: commitTransaction() 
+2025-04-15 15:33:58 server.ts[info]: endTransaction() 
+2025-04-15 15:33:58 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:33:58 server.ts[info]: ::1 - - [15/Apr/2025:10:03:58 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:34:03 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:34:03 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:34:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:34:04 server.ts[info]: ::1 - - [15/Apr/2025:10:04:04 +0000] "GET /api/v1/video/upload/1744711433676-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:34:04 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:34:04 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:34:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:34:04 server.ts[info]: ::1 - - [15/Apr/2025:10:04:04 +0000] "GET /api/v1/video/upload/1744711433676-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:35:39 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:35:41 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:35:41 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:35:41 server.ts[info]: sqlConnection() 
+2025-04-15 15:35:41 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:35:41 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:35:41 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:35:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:35:44 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:35:44 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:35:44 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:35:44 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:35:45 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:35:45 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:35:45 server.ts[info]: commitTransaction() 
+2025-04-15 15:35:45 server.ts[info]: endTransaction() 
+2025-04-15 15:35:45 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:35:45 server.ts[info]: ::1 - - [15/Apr/2025:10:05:45 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:35:48 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:35:48 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:35:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:35:48 server.ts[info]: ::1 - - [15/Apr/2025:10:05:48 +0000] "GET /api/v1/video/upload/1744711541215-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:35:48 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:35:48 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:35:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:35:49 server.ts[info]: ::1 - - [15/Apr/2025:10:05:49 +0000] "GET /api/v1/video/upload/1744711541215-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:41:10 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:41:10 server.ts[info]: sqlConnection() 
+2025-04-15 15:41:10 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:41:10 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:41:10 server.ts[info]: initializeRoutes() 
+2025-04-15 15:41:10 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:41:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:41:19 server.ts[info]: sqlConnection() 
+2025-04-15 15:41:19 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:41:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:41:19 server.ts[info]: initializeRoutes() 
+2025-04-15 15:41:19 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:41:27 server.ts[info]: controller.videos.saveVideo()  
+2025-04-15 15:41:28 server.ts[info]: service.videos.saveVideo() 
+2025-04-15 15:41:28 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-15 15:41:28 server.ts[info]: sqlConnection() 
+2025-04-15 15:41:28 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-15 15:41:28 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-15 15:41:28 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-15 15:41:28 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:41:31 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-15 15:41:31 server.ts[info]: STARTED saveRecord() 
+2025-04-15 15:41:32 server.ts[info]: Processing video at: undefined 
+2025-04-15 15:41:32 server.ts[info]:  Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-15 15:41:32 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-15 15:41:32 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-15 15:41:32 server.ts[info]: commitTransaction() 
+2025-04-15 15:41:32 server.ts[info]: endTransaction() 
+2025-04-15 15:41:32 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-15 15:41:32 server.ts[info]: ::1 - - [15/Apr/2025:10:11:32 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 283
+ 
+2025-04-15 15:41:35 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:41:35 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:41:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:41:36 server.ts[info]: ::1 - - [15/Apr/2025:10:11:36 +0000] "GET /api/v1/video/upload/1744711888517-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:41:36 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-15 15:41:36 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-15 15:41:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:41:41 server.ts[info]: ::1 - - [15/Apr/2025:10:11:41 +0000] "GET /api/v1/video/upload/1744711888517-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-15 15:42:04 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:42:04 server.ts[info]: sqlConnection() 
+2025-04-15 15:42:04 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:42:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:42:04 server.ts[info]: initializeRoutes() 
+2025-04-15 15:42:04 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-15 15:44:12 server.ts[info]: STARTED Validation of env variables! 
+2025-04-15 15:44:12 server.ts[info]: sqlConnection() 
+2025-04-15 15:44:12 server.ts[info]: initializationExpressServer() 
+2025-04-15 15:44:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-15 15:44:12 server.ts[info]: initializeRoutes() 
+2025-04-15 15:44:12 server.ts[info]: SERVER listening on PORT:3201 

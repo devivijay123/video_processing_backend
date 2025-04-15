@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "rootDir": "./src",
+      "baseUrl": "./",
+      "paths": {
+        "@constants/*": [
+          "./src/constants/*"
+        ],
+        "@models": [
+          "./src/models"
+        ],
+        "@loaders/*": [
+          "./src/loaders/*"
+        ],
+        "@logger": [
+          "./src/logger"
+        ],
+        "@routes/initializer": [
+          "./src/routes"
+        ],
+        "@middleware/*": [
+          "./src/middleware/*"
+        ],
+        "@config": [
+          "./src/config"
+        ],
+        "@utils/*": [
+          "./src/util/*"
+        ],
+        "@helpers/*": [
+          "./src/helpers/*"
+        ],
+        "@service/*": [
+          "./src/service/*"
+        ],
+        
+        "@controller/*": [
+          "./src/controller/*"
+        ],
+        "@validations": [
+          "./src/validations"
+        ],
+  
+        "@db/queries": [
+          "src/datasources/pgsql/query_handlers"
+        ],
+        "@db/helpers/*": [
+          "src/datasources/pgsql/helpers/*"
+        ],
+     
+      },
+      "rootDirs": [
+        "src"
+      ],
+      "resolveJsonModule": true,
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": false,
+      "strictNullChecks": false,
+      "skipLibCheck": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

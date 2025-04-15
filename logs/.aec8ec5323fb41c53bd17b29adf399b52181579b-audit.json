@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\video-processing-system\\server\\logs\\.aec8ec5323fb41c53bd17b29adf399b52181579b-audit.json",
+    "files": [
+        {
+            "date": 1744112283422,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-08.log",
+            "hash": "2e44ad04c73330b2c8d94ff8619af8e1c9641d40cfd29b5ee4e23bef0366d727"
+        },
+        {
+            "date": 1744139939884,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-09.log",
+            "hash": "6c025693d8b7433c407ae4a20bf466c52bdef2fface70499944295716b593c02"
+        },
+        {
+            "date": 1744239456455,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-10.log",
+            "hash": "2f0688a95d9ecbfcd5801779333e85e9b1e5adb0e957367d2361fa7facf3bed9"
+        },
+        {
+            "date": 1744321394674,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-11.log",
+            "hash": "142404604699f3deb364504f6f39035f39bece3ad2cc6a615f7eab568a0c5535"
+        },
+        {
+            "date": 1744397795154,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-12.log",
+            "hash": "536bb0ebfc956af85083d3bc40e0862a3df5e0463a30dbf7955a46f6cd614278"
+        },
+        {
+            "date": 1744490768457,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-13.log",
+            "hash": "e990cdbd0f3e495c1b3cf2ca41a655bb1802a42ee43b88282b7c37941e8de668"
+        },
+        {
+            "date": 1744696202959,
+            "name": "D:\\video-processing-system\\server\\logs\\video-2025-04-15.log",
+            "hash": "573162c67ef9539c1edc78dca748ab3ec16c8f668e07bf274d952206705a4854"
+        }
+    ],
+    "hashType": "sha256"
+}

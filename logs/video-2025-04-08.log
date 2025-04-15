@@ -1,0 +1,300 @@
+2025-04-08 17:13:36 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 17:13:36 server.ts[info]: sqlConnection() 
+2025-04-08 17:13:36 server.ts[info]: initializationExpressServer() 
+2025-04-08 17:13:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 17:13:36 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 17:13:36 server.ts[info]: initializeRoutes() 
+2025-04-08 17:13:36 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 17:14:01 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 17:14:01 server.ts[info]: sqlConnection() 
+2025-04-08 17:14:01 server.ts[info]: initializationExpressServer() 
+2025-04-08 17:14:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 17:14:01 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 17:14:01 server.ts[info]: initializeRoutes() 
+2025-04-08 17:14:01 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 18:59:17 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 18:59:17 server.ts[info]: sqlConnection() 
+2025-04-08 18:59:17 server.ts[info]: initializationExpressServer() 
+2025-04-08 18:59:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 18:59:17 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 18:59:17 server.ts[info]: initializeRoutes() 
+2025-04-08 18:59:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:01:32 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:01:33 server.ts[info]: sqlConnection() 
+2025-04-08 19:01:33 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:01:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:01:33 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:01:33 server.ts[info]: initializeRoutes() 
+2025-04-08 19:01:33 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:03:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:03:21 server.ts[info]: sqlConnection() 
+2025-04-08 19:03:21 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:03:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:03:21 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:03:21 server.ts[info]: initializeRoutes() 
+2025-04-08 19:03:21 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:04:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:04:22 server.ts[info]: sqlConnection() 
+2025-04-08 19:04:23 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:04:23 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:04:23 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:04:23 server.ts[info]: initializeRoutes() 
+2025-04-08 19:04:23 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:04:47 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:04:47 server.ts[info]: sqlConnection() 
+2025-04-08 19:04:47 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:04:47 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:04:47 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:04:47 server.ts[info]: initializeRoutes() 
+2025-04-08 19:04:47 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:05:44 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:05:45 server.ts[info]: sqlConnection() 
+2025-04-08 19:05:45 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:05:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:05:45 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:05:45 server.ts[info]: initializeRoutes() 
+2025-04-08 19:05:45 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 19:07:27 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 19:07:27 server.ts[info]: sqlConnection() 
+2025-04-08 19:07:27 server.ts[info]: initializationExpressServer() 
+2025-04-08 19:07:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 19:07:27 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 19:07:27 server.ts[info]: initializeRoutes() 
+2025-04-08 19:07:27 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 21:33:15 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 21:33:15 server.ts[info]: sqlConnection() 
+2025-04-08 21:33:15 server.ts[info]: initializationExpressServer() 
+2025-04-08 21:33:15 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 21:33:15 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 21:33:15 server.ts[info]: initializeRoutes() 
+2025-04-08 21:33:15 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 21:58:14 server.ts[info]: ::1 - - [08/Apr/2025:16:28:14 +0000] "POST /api/v1/uploads HTTP/1.1" 404 154
+ 
+2025-04-08 21:59:09 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 21:59:09 server.ts[info]: sqlConnection() 
+2025-04-08 21:59:09 server.ts[info]: initializationExpressServer() 
+2025-04-08 21:59:09 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 21:59:09 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 21:59:09 server.ts[info]: initializeRoutes() 
+2025-04-08 21:59:09 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 22:03:04 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 22:03:04 server.ts[info]: sqlConnection() 
+2025-04-08 22:03:04 server.ts[info]: initializationExpressServer() 
+2025-04-08 22:03:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 22:03:05 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 22:03:05 server.ts[info]: initializeRoutes() 
+2025-04-08 22:03:05 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 22:03:37 server.ts[info]: ::1 - - [08/Apr/2025:16:33:37 +0000] "POST /api/v1/vdeo/upload HTTP/1.1" 404 158
+ 
+2025-04-08 22:03:48 server.ts[info]: controller.videos.saveVideo()  
+2025-04-08 22:03:48 server.ts[info]: service.videos.saveVideo()  
+2025-04-08 22:03:48 server.ts[error]: ERROR occurred in controller.videos.saveVideo()  Cannot read properties of undefined (reading 'file') TypeError: Cannot read properties of undefined (reading 'file')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:12:25)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:14:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:03:49 server.ts[info]: errorHandler() 
+2025-04-08 22:03:49 server.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'file') TypeError: Cannot read properties of undefined (reading 'file')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:12:25)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:14:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:03:49 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-08 22:03:49 server.ts[info]: ::1 - - [08/Apr/2025:16:33:49 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 
+2025-04-08 22:05:22 server.ts[info]: errorHandler() 
+2025-04-08 22:05:22 server.ts[error]: handling ERROR : Unexpected field MulterError: Unexpected field
+    at wrappedFileFilter (D:\video-processing-system\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\video-processing-system\server\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-04-08 22:05:22 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-08 22:05:22 server.ts[info]: ::1 - - [08/Apr/2025:16:35:22 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 
+2025-04-08 22:10:01 server.ts[info]: errorHandler() 
+2025-04-08 22:10:01 server.ts[error]: handling ERROR : Unexpected field MulterError: Unexpected field
+    at wrappedFileFilter (D:\video-processing-system\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\video-processing-system\server\node_modules\multer\lib\make-middleware.js:109:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\video-processing-system\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\video-processing-system\server\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-04-08 22:10:02 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-08 22:10:02 server.ts[info]: ::1 - - [08/Apr/2025:16:40:02 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 
+2025-04-08 22:17:18 server.ts[info]: controller.videos.saveVideo()  
+2025-04-08 22:17:18 server.ts[info]: service.videos.saveVideo()  
+2025-04-08 22:17:18 server.ts[error]: ERROR occurred in controller.videos.saveVideo()  Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:14:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:17:18 server.ts[info]: errorHandler() 
+2025-04-08 22:17:18 server.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:14:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:17:18 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-08 22:17:18 server.ts[info]: ::1 - - [08/Apr/2025:16:47:18 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 
+2025-04-08 22:18:38 server.ts[info]: STARTED Validation of env variables! 
+2025-04-08 22:18:38 server.ts[info]: sqlConnection() 
+2025-04-08 22:18:38 server.ts[info]: initializationExpressServer() 
+2025-04-08 22:18:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-08 22:18:39 server.ts[error]: ERROR Occurred while creating AWSConnection() Region is missing Error: Region is missing
+    at resolveRegionConfig (D:\video-processing-system\server\node_modules\@smithy\config-resolver\dist-cjs\index.js:132:11)
+    at new S3Client (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:8813:70)
+    at s3ConnectionLoader (D:\video-processing-system\server\src\loaders\s3_config.ts:15:24)
+    at D:\video-processing-system\server\src\loaders\initalizer.ts:20:27
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\video-processing-system\server\src\loaders\initalizer.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-08 22:18:39 server.ts[info]: initializeRoutes() 
+2025-04-08 22:18:39 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-08 22:18:59 server.ts[info]: controller.videos.saveVideo()  
+2025-04-08 22:19:00 server.ts[info]: service.videos.saveVideo()  
+2025-04-08 22:19:00 server.ts[error]: ERROR occurred in controller.videos.saveVideo()  Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:15:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:19:00 server.ts[info]: errorHandler() 
+2025-04-08 22:19:00 server.ts[error]: handling ERROR : Cannot read properties of undefined (reading 'originalname') TypeError: Cannot read properties of undefined (reading 'originalname')
+    at Object.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:13:27)
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\service\videos.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\video-processing-system\server\src\service\videos.ts:4:12)
+    at Object.saveVideo (D:\video-processing-system\server\src\service\videos.ts:22:12)
+    at D:\video-processing-system\server\src\controller\videos.ts:15:58
+    at Generator.next (<anonymous>)
+    at D:\video-processing-system\server\src\controller\videos.ts:41:71
+    at new Promise (<anonymous>)
+2025-04-08 22:19:00 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-08 22:19:01 server.ts[info]: ::1 - - [08/Apr/2025:16:49:01 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 65
+ 

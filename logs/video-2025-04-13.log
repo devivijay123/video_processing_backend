@@ -1,0 +1,2163 @@
+2025-04-13 02:16:13 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 02:16:13 server.ts[info]: sqlConnection() 
+2025-04-13 02:16:13 server.ts[info]: initializationExpressServer() 
+2025-04-13 02:16:13 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:16:13 server.ts[info]: initializeRoutes() 
+2025-04-13 02:16:13 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 02:16:22 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:16:23 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:16:23 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:16:23 server.ts[info]: sqlConnection() 
+2025-04-13 02:16:23 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:16:24 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:16:24 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:16:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:16:27 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:16:27 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:16:27 server.ts[info]: endTransaction() 
+2025-04-13 02:16:27 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:16:28 server.ts[info]: ::1 - - [12/Apr/2025:20:46:28 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:17:57 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 02:17:57 server.ts[info]: sqlConnection() 
+2025-04-13 02:17:57 server.ts[info]: initializationExpressServer() 
+2025-04-13 02:17:57 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:17:58 server.ts[info]: initializeRoutes() 
+2025-04-13 02:17:58 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 02:18:34 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:18:36 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:18:36 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:18:36 server.ts[info]: sqlConnection() 
+2025-04-13 02:18:36 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:18:36 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:18:36 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:18:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:18:39 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:18:39 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:18:39 server.ts[info]: endTransaction() 
+2025-04-13 02:18:39 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:18:39 server.ts[info]: ::1 - - [12/Apr/2025:20:48:39 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:19:53 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:19:55 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:19:55 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:19:55 server.ts[info]: sqlConnection() 
+2025-04-13 02:19:55 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:19:55 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:19:55 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:19:55 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:19:58 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:19:58 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:19:58 server.ts[info]: endTransaction() 
+2025-04-13 02:19:58 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:19:58 server.ts[info]: ::1 - - [12/Apr/2025:20:49:58 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:21:35 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:21:36 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:21:36 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:21:36 server.ts[info]: sqlConnection() 
+2025-04-13 02:21:36 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:21:36 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:21:36 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:21:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:21:39 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:21:39 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:21:39 server.ts[info]: endTransaction() 
+2025-04-13 02:21:39 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:21:39 server.ts[info]: ::1 - - [12/Apr/2025:20:51:39 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:22:51 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:22:53 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:22:53 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:22:53 server.ts[info]: sqlConnection() 
+2025-04-13 02:22:53 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:22:53 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:22:53 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:22:53 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:22:56 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:22:56 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:22:56 server.ts[info]: endTransaction() 
+2025-04-13 02:22:56 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:22:56 server.ts[info]: ::1 - - [12/Apr/2025:20:52:56 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:24:44 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:24:46 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:24:46 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:24:46 server.ts[info]: sqlConnection() 
+2025-04-13 02:24:46 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:24:46 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:24:46 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:24:46 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:24:48 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:24:48 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:24:48 server.ts[info]: endTransaction() 
+2025-04-13 02:24:48 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:24:48 server.ts[info]: ::1 - - [12/Apr/2025:20:54:48 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 02:45:33 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 02:45:33 server.ts[info]: sqlConnection() 
+2025-04-13 02:45:33 server.ts[info]: initializationExpressServer() 
+2025-04-13 02:45:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:45:33 server.ts[info]: initializeRoutes() 
+2025-04-13 02:45:33 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 02:45:49 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 02:45:51 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 02:45:51 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 02:45:51 server.ts[info]: sqlConnection() 
+2025-04-13 02:45:51 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 02:45:51 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 02:45:51 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 02:45:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 02:45:53 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 02:45:53 server.ts[info]: STARTED saveRecord() 
+2025-04-13 02:45:54 server.ts[info]: rollBackTransaction() 
+2025-04-13 02:45:54 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 02:45:54 server.ts[info]: endTransaction() 
+2025-04-13 02:45:54 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 02:45:54 server.ts[info]: ::1 - - [12/Apr/2025:21:15:54 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 03:31:59 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 03:31:59 server.ts[info]: sqlConnection() 
+2025-04-13 03:31:59 server.ts[info]: initializationExpressServer() 
+2025-04-13 03:31:59 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 03:31:59 server.ts[info]: initializeRoutes() 
+2025-04-13 03:31:59 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 03:34:18 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 03:34:20 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 03:34:20 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 03:34:20 server.ts[info]: sqlConnection() 
+2025-04-13 03:34:21 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 03:34:21 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 03:34:21 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 03:34:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 03:34:23 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 03:34:23 server.ts[info]: STARTED saveRecord() 
+2025-04-13 03:34:23 server.ts[info]: rollBackTransaction() 
+2025-04-13 03:34:23 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 03:34:23 server.ts[info]: endTransaction() 
+2025-04-13 03:34:23 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 03:34:23 server.ts[info]: ::1 - - [12/Apr/2025:22:04:23 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 04:31:42 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 04:31:42 server.ts[info]: sqlConnection() 
+2025-04-13 04:31:42 server.ts[info]: initializationExpressServer() 
+2025-04-13 04:31:42 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 04:31:42 server.ts[info]: initializeRoutes() 
+2025-04-13 04:31:42 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 04:32:13 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 04:32:15 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 04:32:15 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 04:32:15 server.ts[info]: sqlConnection() 
+2025-04-13 04:32:16 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 04:32:16 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 04:32:16 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 04:32:16 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 04:32:18 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 04:32:18 server.ts[info]: STARTED saveRecord() 
+2025-04-13 04:32:19 server.ts[error]: 🔴 Python stderr: Python was not found; r 
+2025-04-13 04:32:19 server.ts[error]: 🔴 Python stderr: un without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 04:32:19 server.ts[info]: Python script exited with code 9009 
+2025-04-13 04:32:19 server.ts[error]: ❌ Python script error: 
+2025-04-13 04:32:19 server.ts[info]: rollBackTransaction() 
+2025-04-13 04:32:19 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 04:32:19 server.ts[info]: endTransaction() 
+2025-04-13 04:32:19 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 04:32:19 server.ts[info]: ::1 - - [12/Apr/2025:23:02:19 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:13:38 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:13:38 server.ts[info]: sqlConnection() 
+2025-04-13 11:13:38 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:13:38 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:13:38 server.ts[info]: initializeRoutes() 
+2025-04-13 11:13:38 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:17:22 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:17:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:17:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:17:24 server.ts[info]: sqlConnection() 
+2025-04-13 11:17:24 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:17:24 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:17:24 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:17:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:17:29 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:17:29 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:17:31 server.ts[error]: 🔴 Python stderr: Python was not found; 
+2025-04-13 11:17:31 server.ts[error]: 🔴 Python stderr:  run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:17:31 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:17:31 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:17:31 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:17:31 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:17:31 server.ts[info]: endTransaction() 
+2025-04-13 11:17:31 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:17:31 server.ts[info]: ::1 - - [13/Apr/2025:05:47:31 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:26:05 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:26:05 server.ts[info]: sqlConnection() 
+2025-04-13 11:26:05 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:26:05 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:26:05 server.ts[info]: initializeRoutes() 
+2025-04-13 11:26:05 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:26:17 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:26:17 server.ts[info]: sqlConnection() 
+2025-04-13 11:26:17 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:26:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:26:17 server.ts[info]: initializeRoutes() 
+2025-04-13 11:26:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:26:57 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:26:59 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:26:59 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:26:59 server.ts[info]: sqlConnection() 
+2025-04-13 11:26:59 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:26:59 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:26:59 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:26:59 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:27:04 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:27:04 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:27:04 server.ts[error]: 🔴 Python stderr: Python was not found;  
+2025-04-13 11:27:04 server.ts[error]: 🔴 Python stderr: run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:27:04 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:27:04 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:27:04 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:27:04 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:27:04 server.ts[info]: endTransaction() 
+2025-04-13 11:27:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:27:04 server.ts[info]: ::1 - - [13/Apr/2025:05:57:04 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:35:37 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:35:37 server.ts[info]: sqlConnection() 
+2025-04-13 11:35:37 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:35:37 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:35:37 server.ts[info]: initializeRoutes() 
+2025-04-13 11:35:37 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:35:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:35:56 server.ts[info]: sqlConnection() 
+2025-04-13 11:35:56 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:35:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:35:56 server.ts[info]: initializeRoutes() 
+2025-04-13 11:35:57 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:36:45 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:36:45 server.ts[info]: sqlConnection() 
+2025-04-13 11:36:45 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:36:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:36:45 server.ts[info]: initializeRoutes() 
+2025-04-13 11:36:45 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:37:04 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:37:05 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:37:05 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:37:05 server.ts[info]: sqlConnection() 
+2025-04-13 11:37:05 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:37:05 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:37:05 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:37:05 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:37:09 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:37:09 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:37:09 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 11:37:10 server.ts[error]: 🔴 Python stderr: Python was not found; run  
+2025-04-13 11:37:10 server.ts[error]: 🔴 Python stderr: without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:37:10 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:37:10 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:37:10 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:37:10 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:37:10 server.ts[info]: endTransaction() 
+2025-04-13 11:37:10 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:37:10 server.ts[info]: ::1 - - [13/Apr/2025:06:07:10 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:47:46 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:47:46 server.ts[info]: sqlConnection() 
+2025-04-13 11:47:46 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:47:46 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:47:46 server.ts[info]: initializeRoutes() 
+2025-04-13 11:47:46 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:48:01 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:48:02 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:48:02 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:48:02 server.ts[info]: sqlConnection() 
+2025-04-13 11:48:02 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:48:02 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:48:02 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:48:02 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:48:07 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:48:07 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:48:07 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\yolo\detect.py 
+2025-04-13 11:48:07 server.ts[error]: 🔴 Python stderr: Python was not found; run  
+2025-04-13 11:48:07 server.ts[error]: 🔴 Python stderr: without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:48:07 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:48:07 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:48:07 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:48:07 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:48:07 server.ts[info]: endTransaction() 
+2025-04-13 11:48:07 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:48:07 server.ts[info]: ::1 - - [13/Apr/2025:06:18:07 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:49:08 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:49:08 server.ts[info]: sqlConnection() 
+2025-04-13 11:49:08 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:49:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:49:08 server.ts[info]: initializeRoutes() 
+2025-04-13 11:49:08 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:51:25 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:51:26 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:51:26 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:51:26 server.ts[info]: sqlConnection() 
+2025-04-13 11:51:26 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:51:26 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:51:26 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:51:26 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:51:31 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:51:31 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:51:31 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 11:51:31 server.ts[error]: 🔴 Python stderr: Python was not fou 
+2025-04-13 11:51:31 server.ts[error]: 🔴 Python stderr: nd; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:51:31 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:51:31 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:51:31 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:51:31 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:51:31 server.ts[info]: endTransaction() 
+2025-04-13 11:51:31 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:51:31 server.ts[info]: ::1 - - [13/Apr/2025:06:21:31 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:54:01 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:54:01 server.ts[info]: sqlConnection() 
+2025-04-13 11:54:01 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:54:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:54:02 server.ts[info]: initializeRoutes() 
+2025-04-13 11:54:02 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:54:20 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:54:21 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:54:21 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:54:21 server.ts[info]: sqlConnection() 
+2025-04-13 11:54:21 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:54:21 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:54:21 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:54:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:54:25 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:54:25 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:54:25 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 11:54:25 server.ts[error]: 🔴 Python stderr: Python was not found; run 
+2025-04-13 11:54:25 server.ts[error]: 🔴 Python stderr:  without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+ 
+2025-04-13 11:54:25 server.ts[info]: Python script exited with code 9009 
+2025-04-13 11:54:25 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:54:25 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:54:25 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:54:25 server.ts[info]: endTransaction() 
+2025-04-13 11:54:25 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:54:25 server.ts[info]: ::1 - - [13/Apr/2025:06:24:25 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 11:57:28 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 11:57:28 server.ts[info]: sqlConnection() 
+2025-04-13 11:57:28 server.ts[info]: initializationExpressServer() 
+2025-04-13 11:57:28 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:57:28 server.ts[info]: initializeRoutes() 
+2025-04-13 11:57:28 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 11:57:41 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 11:57:42 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 11:57:42 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 11:57:42 server.ts[info]: sqlConnection() 
+2025-04-13 11:57:42 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 11:57:42 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 11:57:42 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 11:57:42 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 11:57:46 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 11:57:46 server.ts[info]: STARTED saveRecord() 
+2025-04-13 11:57:46 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 11:57:48 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 11:57:48 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 1, in <module>
+    import cv2
+ 
+2025-04-13 11:57:48 server.ts[error]: 🔴 Python stderr: ModuleNotFoundError: No module named 'cv2'
+ 
+2025-04-13 11:57:48 server.ts[info]: Python script exited with code 1 
+2025-04-13 11:57:48 server.ts[error]: ❌ Python script error: 
+2025-04-13 11:57:48 server.ts[info]: rollBackTransaction() 
+2025-04-13 11:57:48 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 11:57:48 server.ts[info]: endTransaction() 
+2025-04-13 11:57:48 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 11:57:48 server.ts[info]: ::1 - - [13/Apr/2025:06:27:48 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:07:35 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 12:07:35 server.ts[info]: sqlConnection() 
+2025-04-13 12:07:35 server.ts[info]: initializationExpressServer() 
+2025-04-13 12:07:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:07:35 server.ts[info]: initializeRoutes() 
+2025-04-13 12:07:35 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 12:07:53 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 12:07:55 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 12:07:55 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 12:07:55 server.ts[info]: sqlConnection() 
+2025-04-13 12:07:55 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 12:07:55 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 12:07:55 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 12:07:55 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:08:00 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 12:08:00 server.ts[info]: STARTED saveRecord() 
+2025-04-13 12:08:00 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 12:08:05 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 12:08:05 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 6, in <module>
+    yolo_net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\dnn\src\darknet\darknet_importer.cpp:210: error: (-212:Parsing error) Failed to open NetParameter file: yolov3.cfg in function 'cv::dnn::dnn4_v20241223::readNetFromDarknet'
+
+ 
+2025-04-13 12:08:05 server.ts[info]: Python script exited with code 1 
+2025-04-13 12:08:05 server.ts[error]: ❌ Python script error: 
+2025-04-13 12:08:05 server.ts[info]: rollBackTransaction() 
+2025-04-13 12:08:05 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 12:08:05 server.ts[info]: endTransaction() 
+2025-04-13 12:08:05 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 12:08:05 server.ts[info]: ::1 - - [13/Apr/2025:06:38:05 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:28:15 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 12:28:17 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 12:28:17 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 12:28:17 server.ts[info]: sqlConnection() 
+2025-04-13 12:28:17 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 12:28:17 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 12:28:17 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 12:28:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:28:21 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 12:28:21 server.ts[info]: STARTED saveRecord() 
+2025-04-13 12:28:21 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 12:28:21 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 12:28:21 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 6, in <module>
+    yolo_net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\dnn\src\darknet\darknet_importer.cpp:210: error: (-212:Parsing error) Failed to open NetParameter file: yolov3.cfg in function 'cv::dnn::dnn4_v20241223::readNetFromDarknet'
+
+ 
+2025-04-13 12:28:21 server.ts[info]: Python script exited with code 1 
+2025-04-13 12:28:21 server.ts[error]: ❌ Python script error: 
+2025-04-13 12:28:21 server.ts[info]: rollBackTransaction() 
+2025-04-13 12:28:21 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 12:28:21 server.ts[info]: endTransaction() 
+2025-04-13 12:28:21 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 12:28:21 server.ts[info]: ::1 - - [13/Apr/2025:06:58:21 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:38:22 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 12:38:22 server.ts[info]: sqlConnection() 
+2025-04-13 12:38:22 server.ts[info]: initializationExpressServer() 
+2025-04-13 12:38:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:38:22 server.ts[info]: initializeRoutes() 
+2025-04-13 12:38:22 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 12:38:35 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 12:38:36 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 12:38:36 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 12:38:36 server.ts[info]: sqlConnection() 
+2025-04-13 12:38:36 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 12:38:36 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 12:38:36 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 12:38:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:38:40 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 12:38:40 server.ts[info]: STARTED saveRecord() 
+2025-04-13 12:38:40 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 12:38:40 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 12:38:40 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 6, in <module>
+    yolo_net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\dnn\src\darknet\darknet_importer.cpp:210: error: (-212:Parsing error) Failed to open NetParameter file: yolov3.cfg in function 'cv::dnn::dnn4_v20241223::readNetFromDarknet'
+
+ 
+2025-04-13 12:38:40 server.ts[info]: Python script exited with code 1 
+2025-04-13 12:38:40 server.ts[error]: ❌ Python script error: 
+2025-04-13 12:38:40 server.ts[info]: rollBackTransaction() 
+2025-04-13 12:38:40 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 12:38:40 server.ts[info]: endTransaction() 
+2025-04-13 12:38:40 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 12:38:40 server.ts[info]: ::1 - - [13/Apr/2025:07:08:40 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:48:08 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 12:48:08 server.ts[info]: sqlConnection() 
+2025-04-13 12:48:08 server.ts[info]: initializationExpressServer() 
+2025-04-13 12:48:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:48:08 server.ts[info]: initializeRoutes() 
+2025-04-13 12:48:08 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 12:48:21 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 12:48:22 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 12:48:22 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 12:48:22 server.ts[info]: sqlConnection() 
+2025-04-13 12:48:23 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 12:48:23 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 12:48:23 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 12:48:23 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:48:26 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 12:48:26 server.ts[info]: STARTED saveRecord() 
+2025-04-13 12:48:26 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 12:48:26 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 12:48:26 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 6, in <module>
+    yolo_net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\dnn\src\darknet\darknet_importer.cpp:210: error: (-212:Parsing error) Failed to open NetParameter file: yolov3.cfg in function 'cv::dnn::dnn4_v20241223::readNetFromDarknet'
+
+ 
+2025-04-13 12:48:26 server.ts[info]: Python script exited with code 1 
+2025-04-13 12:48:26 server.ts[error]: ❌ Python script error: 
+2025-04-13 12:48:26 server.ts[info]: rollBackTransaction() 
+2025-04-13 12:48:26 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 12:48:26 server.ts[info]: endTransaction() 
+2025-04-13 12:48:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 12:48:26 server.ts[info]: ::1 - - [13/Apr/2025:07:18:26 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:54:17 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 12:54:17 server.ts[info]: sqlConnection() 
+2025-04-13 12:54:17 server.ts[info]: initializationExpressServer() 
+2025-04-13 12:54:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:54:17 server.ts[info]: initializeRoutes() 
+2025-04-13 12:54:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 12:54:34 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 12:54:35 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 12:54:35 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 12:54:35 server.ts[info]: sqlConnection() 
+2025-04-13 12:54:35 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 12:54:35 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 12:54:35 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 12:54:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:54:39 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 12:54:39 server.ts[info]: STARTED saveRecord() 
+2025-04-13 12:54:39 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 12:54:40 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 12:54:40 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 6, in <module>
+    yolo_net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\dnn\src\darknet\darknet_importer.cpp:210: error: (-212:Parsing error) Failed to open NetParameter file: yolov3.cfg in function 'cv::dnn::dnn4_v20241223::readNetFromDarknet'
+
+ 
+2025-04-13 12:54:40 server.ts[info]: Python script exited with code 1 
+2025-04-13 12:54:40 server.ts[error]: ❌ Python script error: 
+2025-04-13 12:54:40 server.ts[info]: rollBackTransaction() 
+2025-04-13 12:54:40 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 12:54:40 server.ts[info]: endTransaction() 
+2025-04-13 12:54:40 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 12:54:40 server.ts[info]: ::1 - - [13/Apr/2025:07:24:40 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 12:59:49 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 12:59:49 server.ts[info]: sqlConnection() 
+2025-04-13 12:59:49 server.ts[info]: initializationExpressServer() 
+2025-04-13 12:59:49 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 12:59:49 server.ts[info]: initializeRoutes() 
+2025-04-13 12:59:49 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:00:08 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:00:10 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:00:10 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:00:10 server.ts[info]: sqlConnection() 
+2025-04-13 13:00:10 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:00:10 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:00:10 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:00:10 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:00:14 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:00:14 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:00:14 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:00:15 server.ts[info]: 🟢 Python stdout: CFG exists: True
+Weights exist: True
+ 
+2025-04-13 13:00:15 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 13:00:15 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 23, in <module>
+    print("YOLO model loaded successfully \u2705")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+2025-04-13 13:00:15 server.ts[error]: 🔴 Python stderr:   File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 31: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\video-processing-system\server\src\service\yolo\detect.py", line 25, in <module>
+    print("\u274c Failed to load YOLO model:", e)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+ 
+2025-04-13 13:00:15 server.ts[info]: Python script exited with code 1 
+2025-04-13 13:00:15 server.ts[error]: ❌ Python script error: 
+2025-04-13 13:00:15 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:00:15 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:00:15 server.ts[info]: endTransaction() 
+2025-04-13 13:00:15 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:00:15 server.ts[info]: ::1 - - [13/Apr/2025:07:30:15 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:03:12 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:03:12 server.ts[info]: sqlConnection() 
+2025-04-13 13:03:12 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:03:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:03:12 server.ts[info]: initializeRoutes() 
+2025-04-13 13:03:12 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:03:21 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:03:22 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:03:22 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:03:22 server.ts[info]: sqlConnection() 
+2025-04-13 13:03:22 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:03:22 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:03:22 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:03:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:03:26 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:03:26 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:03:26 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:03:27 server.ts[info]: 🟢 Python stdout: CFG exists: True
+Weights exist: True
+YOLO model loaded successfully
+ 
+2025-04-13 13:03:27 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 13:03:27 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 32, in <module>
+    with open("coco.names", "r") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'coco.names'
+ 
+2025-04-13 13:03:27 server.ts[info]: Python script exited with code 1 
+2025-04-13 13:03:27 server.ts[error]: ❌ Python script error: 
+2025-04-13 13:03:27 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:03:27 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:03:27 server.ts[info]: endTransaction() 
+2025-04-13 13:03:27 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:03:27 server.ts[info]: ::1 - - [13/Apr/2025:07:33:27 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:08:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:08:56 server.ts[info]: sqlConnection() 
+2025-04-13 13:08:56 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:08:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:08:56 server.ts[info]: initializeRoutes() 
+2025-04-13 13:08:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:09:11 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:09:12 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:09:12 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:09:12 server.ts[info]: sqlConnection() 
+2025-04-13 13:09:12 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:09:12 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:09:12 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:09:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:09:16 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:09:16 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:09:16 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:09:17 server.ts[info]: 🟢 Python stdout: CFG exists: True
+Weights exist: True
+YOLO model loaded successfully
+ 
+2025-04-13 13:09:17 server.ts[error]: 🔴 Python stderr: Traceback (most recent call last):
+ 
+2025-04-13 13:09:17 server.ts[error]: 🔴 Python stderr:   File "D:\video-processing-system\server\src\service\yolo\detect.py", line 32, in <module>
+    with open("coco.names", "r") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'coco.names'
+ 
+2025-04-13 13:09:17 server.ts[info]: Python script exited with code 1 
+2025-04-13 13:09:17 server.ts[error]: ❌ Python script error: 
+2025-04-13 13:09:17 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:09:17 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:09:17 server.ts[info]: endTransaction() 
+2025-04-13 13:09:17 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:09:17 server.ts[info]: ::1 - - [13/Apr/2025:07:39:17 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:11:37 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:11:37 server.ts[info]: sqlConnection() 
+2025-04-13 13:11:37 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:11:37 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:11:37 server.ts[info]: initializeRoutes() 
+2025-04-13 13:11:37 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:11:49 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:11:51 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:11:51 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:11:51 server.ts[info]: sqlConnection() 
+2025-04-13 13:11:51 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:11:51 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:11:51 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:11:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:11:54 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:11:54 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:11:54 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:11:55 server.ts[info]: 🟢 Python stdout: CFG exists: True
+Weights exist: True
+YOLO model loaded successfully
+ 
+2025-04-13 13:11:55 server.ts[info]: Python script exited with code 0 
+2025-04-13 13:11:55 server.ts[error]: ❌ Failed to parse JSON: Unexpected token 'C', "CFG exists"... is not valid JSON SyntaxError: Unexpected token 'C', "CFG exists"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:143:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 13:11:55 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:11:55 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:11:55 server.ts[info]: endTransaction() 
+2025-04-13 13:11:55 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:11:55 server.ts[info]: ::1 - - [13/Apr/2025:07:41:55 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:23:02 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:23:02 server.ts[info]: sqlConnection() 
+2025-04-13 13:23:02 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:23:02 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:23:02 server.ts[info]: initializeRoutes() 
+2025-04-13 13:23:02 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:23:16 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:23:17 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:23:17 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:23:17 server.ts[info]: sqlConnection() 
+2025-04-13 13:23:17 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:23:17 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:23:17 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:23:17 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:23:22 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:23:22 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:23:22 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:23:23 server.ts[info]: Python script exited with code 0 
+2025-04-13 13:23:23 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:141:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 13:23:23 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:23:23 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:23:23 server.ts[info]: endTransaction() 
+2025-04-13 13:23:23 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:23:23 server.ts[info]: ::1 - - [13/Apr/2025:07:53:23 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:32:41 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:32:41 server.ts[info]: sqlConnection() 
+2025-04-13 13:32:41 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:32:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:32:41 server.ts[info]: initializeRoutes() 
+2025-04-13 13:32:42 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 13:32:57 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 13:32:58 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 13:32:58 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 13:32:58 server.ts[info]: sqlConnection() 
+2025-04-13 13:32:58 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 13:32:58 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 13:32:58 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 13:32:58 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:33:03 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 13:33:03 server.ts[info]: STARTED saveRecord() 
+2025-04-13 13:33:03 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 13:33:04 server.ts[info]: Python script exited with code 1 
+2025-04-13 13:33:04 server.ts[error]: ❌ Python script error: 
+2025-04-13 13:33:04 server.ts[info]: rollBackTransaction() 
+2025-04-13 13:33:04 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 13:33:04 server.ts[info]: endTransaction() 
+2025-04-13 13:33:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 13:33:04 server.ts[info]: ::1 - - [13/Apr/2025:08:03:04 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 13:50:11 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 13:50:11 server.ts[info]: sqlConnection() 
+2025-04-13 13:50:11 server.ts[info]: initializationExpressServer() 
+2025-04-13 13:50:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 13:50:11 server.ts[info]: initializeRoutes() 
+2025-04-13 13:50:11 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:00:18 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:00:18 server.ts[info]: sqlConnection() 
+2025-04-13 14:00:18 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:00:18 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:00:18 server.ts[info]: initializeRoutes() 
+2025-04-13 14:00:18 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:00:18 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:00:19 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:00:19 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:00:19 server.ts[info]: sqlConnection() 
+2025-04-13 14:00:19 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:00:19 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:00:19 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:00:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:00:24 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:00:24 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:00:24 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 14:00:35 server.ts[info]: Python script exited with code 1 
+2025-04-13 14:00:35 server.ts[error]: ❌ Python script error: 
+2025-04-13 14:00:35 server.ts[info]: rollBackTransaction() 
+2025-04-13 14:00:35 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 14:00:35 server.ts[info]: endTransaction() 
+2025-04-13 14:00:35 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 14:00:35 server.ts[info]: ::1 - - [13/Apr/2025:08:30:35 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 14:04:57 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:04:57 server.ts[info]: sqlConnection() 
+2025-04-13 14:04:57 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:04:57 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:04:57 server.ts[info]: initializeRoutes() 
+2025-04-13 14:04:57 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:05:03 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:05:04 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:05:04 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:05:04 server.ts[info]: sqlConnection() 
+2025-04-13 14:05:04 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:05:04 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:05:04 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:05:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:05:11 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:05:11 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:05:11 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 14:05:12 server.ts[info]: Python script exited with code 0 
+2025-04-13 14:05:12 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:141:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 14:05:12 server.ts[info]: rollBackTransaction() 
+2025-04-13 14:05:12 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 14:05:12 server.ts[info]: endTransaction() 
+2025-04-13 14:05:12 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 14:05:12 server.ts[info]: ::1 - - [13/Apr/2025:08:35:12 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 14:14:11 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:14:11 server.ts[info]: sqlConnection() 
+2025-04-13 14:14:11 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:14:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:14:11 server.ts[info]: initializeRoutes() 
+2025-04-13 14:14:11 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:14:14 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:14:15 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:14:15 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:14:15 server.ts[info]: sqlConnection() 
+2025-04-13 14:14:15 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:14:15 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:14:15 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:14:15 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:14:20 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:14:20 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:14:20 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 14:14:21 server.ts[info]: Python script exited with code 0 
+2025-04-13 14:14:21 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:144:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 14:14:21 server.ts[info]: rollBackTransaction() 
+2025-04-13 14:14:21 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 14:14:21 server.ts[info]: endTransaction() 
+2025-04-13 14:14:21 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 14:14:21 server.ts[info]: ::1 - - [13/Apr/2025:08:44:21 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 14:18:19 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:18:19 server.ts[info]: sqlConnection() 
+2025-04-13 14:18:19 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:18:19 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:18:19 server.ts[info]: initializeRoutes() 
+2025-04-13 14:18:19 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:18:54 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:18:54 server.ts[info]: sqlConnection() 
+2025-04-13 14:18:54 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:18:54 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:18:54 server.ts[info]: initializeRoutes() 
+2025-04-13 14:18:54 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:20:22 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:20:22 server.ts[info]: sqlConnection() 
+2025-04-13 14:20:22 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:20:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:20:22 server.ts[info]: initializeRoutes() 
+2025-04-13 14:20:22 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:20:43 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:20:43 server.ts[info]: sqlConnection() 
+2025-04-13 14:20:43 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:20:43 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:20:43 server.ts[info]: initializeRoutes() 
+2025-04-13 14:20:43 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:20:55 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:20:56 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:20:56 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:20:56 server.ts[info]: sqlConnection() 
+2025-04-13 14:20:56 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:20:56 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:20:56 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:20:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:21:01 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:21:01 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:21:02 server.ts[info]: 📂 Running detect.py from: [object Object] 
+2025-04-13 14:21:02 server.ts[info]: 📂 Running detect.py from: D:/video-processing-system/server/uploads/240478_small.mp4 
+2025-04-13 14:21:02 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 14:21:04 server.ts[info]: Python script exited with code 0 
+2025-04-13 14:21:04 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:147:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 14:21:04 server.ts[info]: rollBackTransaction() 
+2025-04-13 14:21:04 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 14:21:04 server.ts[info]: endTransaction() 
+2025-04-13 14:21:04 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 14:21:04 server.ts[info]: ::1 - - [13/Apr/2025:08:51:04 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 14:26:28 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:26:28 server.ts[info]: sqlConnection() 
+2025-04-13 14:26:28 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:26:28 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:26:28 server.ts[info]: initializeRoutes() 
+2025-04-13 14:26:28 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:26:40 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:26:41 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:26:41 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:26:41 server.ts[info]: sqlConnection() 
+2025-04-13 14:26:41 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:26:41 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:26:41 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:26:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:26:45 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:26:45 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:26:45 server.ts[info]: 📂 Running detect.py from: [object Object] 
+2025-04-13 14:26:45 server.ts[info]: 📂 Running detect.py from: D:/video-processing-system/server/uploads/240478_small.mp4 
+2025-04-13 14:26:45 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 14:26:46 server.ts[info]: Python script exited with code 0 
+2025-04-13 14:26:46 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:147:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 14:26:46 server.ts[info]: rollBackTransaction() 
+2025-04-13 14:26:46 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 14:26:46 server.ts[info]: endTransaction() 
+2025-04-13 14:26:46 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 14:26:46 server.ts[info]: ::1 - - [13/Apr/2025:08:56:46 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 14:38:34 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 14:38:34 server.ts[info]: sqlConnection() 
+2025-04-13 14:38:34 server.ts[info]: initializationExpressServer() 
+2025-04-13 14:38:34 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:38:34 server.ts[info]: initializeRoutes() 
+2025-04-13 14:38:34 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 14:59:03 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 14:59:06 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 14:59:06 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 14:59:06 server.ts[info]: sqlConnection() 
+2025-04-13 14:59:06 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 14:59:06 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 14:59:06 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 14:59:06 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 14:59:10 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 14:59:10 server.ts[info]: STARTED saveRecord() 
+2025-04-13 14:59:10 server.ts[info]: 📂 Running detect.py from: [object Object] 
+2025-04-13 14:59:10 server.ts[info]: 📂 Running detect.py from: D:/video-processing-system/server/uploads/240478_small.mp4 
+2025-04-13 14:59:10 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 15:05:32 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 15:05:32 server.ts[info]: sqlConnection() 
+2025-04-13 15:05:32 server.ts[info]: initializationExpressServer() 
+2025-04-13 15:05:32 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:05:32 server.ts[info]: initializeRoutes() 
+2025-04-13 15:05:32 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 15:05:36 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 15:05:37 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 15:05:37 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 15:05:37 server.ts[info]: sqlConnection() 
+2025-04-13 15:05:37 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 15:05:37 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 15:05:37 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 15:05:37 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:05:40 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 15:05:40 server.ts[info]: STARTED saveRecord() 
+2025-04-13 15:05:40 server.ts[info]: 📂 Running detect.py from: [object Object] 
+2025-04-13 15:05:40 server.ts[info]: 📂 Running detect.py from: D:/video-processing-system/server/uploads/240478_small.mp4 
+2025-04-13 15:05:40 server.ts[info]: 📂 Running detect.py from: D:\video-processing-system\server\src\service\yolo\detect.py 
+2025-04-13 15:05:43 server.ts[info]: Python script exited with code 0 
+2025-04-13 15:05:43 server.ts[error]: ❌ Failed to parse JSON: Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:147:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 15:05:43 server.ts[info]: rollBackTransaction() 
+2025-04-13 15:05:43 server.ts[error]: ERROR in service.videos.saveVideo(): 
+2025-04-13 15:05:43 server.ts[info]: endTransaction() 
+2025-04-13 15:05:43 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 15:05:43 server.ts[info]: ::1 - - [13/Apr/2025:09:35:43 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 118
+ 
+2025-04-13 15:36:00 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 15:36:00 server.ts[info]: sqlConnection() 
+2025-04-13 15:36:00 server.ts[info]: initializationExpressServer() 
+2025-04-13 15:36:00 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:36:00 server.ts[info]: initializeRoutes() 
+2025-04-13 15:36:00 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 15:36:14 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 15:36:15 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 15:36:15 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 15:36:15 server.ts[info]: sqlConnection() 
+2025-04-13 15:36:15 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 15:36:15 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 15:36:15 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 15:36:15 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:36:17 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 15:36:17 server.ts[info]: STARTED saveRecord() 
+2025-04-13 15:36:17 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 15:36:17 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 15:52:11 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 15:52:11 server.ts[info]: sqlConnection() 
+2025-04-13 15:52:11 server.ts[info]: initializationExpressServer() 
+2025-04-13 15:52:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:52:11 server.ts[info]: initializeRoutes() 
+2025-04-13 15:52:11 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 15:52:16 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 15:52:18 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 15:52:18 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 15:52:18 server.ts[info]: sqlConnection() 
+2025-04-13 15:52:18 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 15:52:18 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 15:52:18 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 15:52:18 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 15:52:22 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 15:52:22 server.ts[info]: STARTED saveRecord() 
+2025-04-13 15:52:22 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 15:52:22 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 15:52:23 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 15:52:23 server.ts[error]: ❌ Failed to parse JSON from Python script Unexpected token 'P', "Processed "... is not valid JSON SyntaxError: Unexpected token 'P', "Processed "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:96:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 15:52:23 server.ts[info]: rollBackTransaction() 
+2025-04-13 15:52:23 server.ts[error]: ERROR in service.videos.saveVideo(): Failed to parse JSON output from Python script. Error: Failed to parse JSON output from Python script.
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:101:28)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 15:52:23 server.ts[info]: endTransaction() 
+2025-04-13 15:52:23 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 15:52:23 server.ts[info]: ::1 - - [13/Apr/2025:10:22:23 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 106
+ 
+2025-04-13 16:06:43 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:06:43 server.ts[info]: sqlConnection() 
+2025-04-13 16:06:43 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:06:43 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:06:43 server.ts[info]: initializeRoutes() 
+2025-04-13 16:06:43 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:06:54 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 16:06:56 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 16:06:56 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 16:06:56 server.ts[info]: sqlConnection() 
+2025-04-13 16:06:56 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 16:06:56 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 16:06:56 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 16:06:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:07:00 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 16:07:00 server.ts[info]: STARTED saveRecord() 
+2025-04-13 16:07:00 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 16:07:00 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 16:07:01 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 16:07:01 server.ts[error]: ❌ Failed to parse JSON from Python script Unexpected token 'P', "Processed "... is not valid JSON SyntaxError: Unexpected token 'P', "Processed "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:96:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:07:01 server.ts[info]: rollBackTransaction() 
+2025-04-13 16:07:01 server.ts[error]: ERROR in service.videos.saveVideo(): Failed to parse JSON output from Python script. Error: Failed to parse JSON output from Python script.
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:101:28)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:07:01 server.ts[info]: endTransaction() 
+2025-04-13 16:07:01 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 16:07:01 server.ts[info]: ::1 - - [13/Apr/2025:10:37:01 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 106
+ 
+2025-04-13 16:12:03 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:12:03 server.ts[info]: sqlConnection() 
+2025-04-13 16:12:03 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:12:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:12:03 server.ts[info]: initializeRoutes() 
+2025-04-13 16:12:03 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:12:16 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:12:16 server.ts[info]: sqlConnection() 
+2025-04-13 16:12:16 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:12:16 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:12:17 server.ts[info]: initializeRoutes() 
+2025-04-13 16:12:17 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:12:30 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:12:30 server.ts[info]: sqlConnection() 
+2025-04-13 16:12:30 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:12:30 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:12:30 server.ts[info]: initializeRoutes() 
+2025-04-13 16:12:30 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:12:52 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:12:52 server.ts[info]: sqlConnection() 
+2025-04-13 16:12:52 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:12:52 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:12:52 server.ts[info]: initializeRoutes() 
+2025-04-13 16:12:52 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:13:14 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:13:14 server.ts[info]: sqlConnection() 
+2025-04-13 16:13:14 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:13:14 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:13:14 server.ts[info]: initializeRoutes() 
+2025-04-13 16:13:14 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:13:26 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 16:13:27 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 16:13:27 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 16:13:27 server.ts[info]: sqlConnection() 
+2025-04-13 16:13:27 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 16:13:27 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 16:13:27 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 16:13:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:13:30 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 16:13:30 server.ts[info]: STARTED saveRecord() 
+2025-04-13 16:13:30 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 16:13:30 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 16:13:31 server.ts[info]: 🔚 outputData Processed 5 frames. Returning results...
+{
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 16:13:31 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 16:13:31 server.ts[error]: ❌ Failed to parse JSON from Python script Unexpected token 'P', "Processed "... is not valid JSON SyntaxError: Unexpected token 'P', "Processed "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:98:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:13:31 server.ts[info]: rollBackTransaction() 
+2025-04-13 16:13:31 server.ts[error]: ERROR in service.videos.saveVideo(): Failed to parse JSON output from Python script. Error: Failed to parse JSON output from Python script.
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:103:28)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:13:31 server.ts[info]: endTransaction() 
+2025-04-13 16:13:31 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 16:13:31 server.ts[info]: ::1 - - [13/Apr/2025:10:43:31 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 106
+ 
+2025-04-13 16:24:00 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:24:00 server.ts[info]: sqlConnection() 
+2025-04-13 16:24:00 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:24:00 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:24:00 server.ts[info]: initializeRoutes() 
+2025-04-13 16:24:00 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:24:08 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 16:24:09 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 16:24:09 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 16:24:09 server.ts[info]: sqlConnection() 
+2025-04-13 16:24:09 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 16:24:09 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 16:24:09 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 16:24:09 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:24:13 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 16:24:13 server.ts[info]: STARTED saveRecord() 
+2025-04-13 16:24:13 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 16:24:13 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 16:24:14 server.ts[info]: 🔚 outputData Processed 5 frames. Returning results...
+{
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 16:24:14 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 16:24:14 server.ts[error]: ❌ Failed to parse JSON from Python script Unexpected token 'P', "Processed "... is not valid JSON SyntaxError: Unexpected token 'P', "Processed "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:98:43)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:24:14 server.ts[info]: rollBackTransaction() 
+2025-04-13 16:24:14 server.ts[error]: ERROR in service.videos.saveVideo(): Failed to parse JSON output from Python script. Error: Failed to parse JSON output from Python script.
+    at ChildProcess.<anonymous> (D:\video-processing-system\server\src\service\videos.ts:103:28)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-04-13 16:24:14 server.ts[info]: endTransaction() 
+2025-04-13 16:24:14 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 16:24:14 server.ts[info]: ::1 - - [13/Apr/2025:10:54:14 +0000] "POST /api/v1/video/upload HTTP/1.1" 500 106
+ 
+2025-04-13 16:41:05 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 16:41:05 server.ts[info]: sqlConnection() 
+2025-04-13 16:41:05 server.ts[info]: initializationExpressServer() 
+2025-04-13 16:41:05 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:41:05 server.ts[info]: initializeRoutes() 
+2025-04-13 16:41:05 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 16:41:10 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 16:41:11 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 16:41:11 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 16:41:11 server.ts[info]: sqlConnection() 
+2025-04-13 16:41:12 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 16:41:12 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 16:41:12 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 16:41:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:41:17 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 16:41:17 server.ts[info]: STARTED saveRecord() 
+2025-04-13 16:41:17 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 16:41:17 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 16:41:18 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 16:41:18 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 16:41:18 server.ts[info]: commitTransaction() 
+2025-04-13 16:41:18 server.ts[info]: endTransaction() 
+2025-04-13 16:41:18 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 16:41:18 server.ts[info]: ::1 - - [13/Apr/2025:11:11:18 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 16:42:11 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 16:42:12 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 16:42:12 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 16:42:12 server.ts[info]: sqlConnection() 
+2025-04-13 16:42:12 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 16:42:12 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 16:42:12 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 16:42:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 16:42:17 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 16:42:17 server.ts[info]: STARTED saveRecord() 
+2025-04-13 16:42:17 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 16:42:17 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 16:42:18 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 16:42:18 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 16:42:18 server.ts[info]: commitTransaction() 
+2025-04-13 16:42:18 server.ts[info]: endTransaction() 
+2025-04-13 16:42:18 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 16:42:18 server.ts[info]: ::1 - - [13/Apr/2025:11:12:18 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 17:32:25 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 17:32:27 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 17:32:27 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 17:32:27 server.ts[info]: sqlConnection() 
+2025-04-13 17:32:27 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 17:32:27 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 17:32:27 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 17:32:27 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:32:31 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 17:32:31 server.ts[info]: STARTED saveRecord() 
+2025-04-13 17:32:31 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 17:32:31 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 17:32:33 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 17:32:33 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 17:32:33 server.ts[info]: commitTransaction() 
+2025-04-13 17:32:33 server.ts[info]: endTransaction() 
+2025-04-13 17:32:33 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 17:32:33 server.ts[info]: ::1 - - [13/Apr/2025:12:02:33 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 17:33:14 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 17:33:16 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 17:33:16 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 17:33:16 server.ts[info]: sqlConnection() 
+2025-04-13 17:33:16 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 17:33:16 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 17:33:16 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 17:33:16 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:33:20 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 17:33:20 server.ts[info]: STARTED saveRecord() 
+2025-04-13 17:33:20 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 17:33:20 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 17:33:21 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 17:33:21 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 17:33:21 server.ts[info]: commitTransaction() 
+2025-04-13 17:33:21 server.ts[info]: endTransaction() 
+2025-04-13 17:33:21 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 17:33:21 server.ts[info]: ::1 - - [13/Apr/2025:12:03:21 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 17:34:39 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 17:34:39 server.ts[info]: sqlConnection() 
+2025-04-13 17:34:39 server.ts[info]: initializationExpressServer() 
+2025-04-13 17:34:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:34:39 server.ts[info]: initializeRoutes() 
+2025-04-13 17:34:39 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 17:34:51 server.ts[info]: ::1 - - [13/Apr/2025:12:04:51 +0000] "GET /uploads/240478_small.mp4 HTTP/1.1" 404 163
+ 
+2025-04-13 17:34:52 server.ts[info]: ::1 - - [13/Apr/2025:12:04:52 +0000] "GET /uploads/240478_small.mp4 HTTP/1.1" 404 163
+ 
+2025-04-13 17:48:11 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 17:48:13 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 17:48:13 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 17:48:13 server.ts[info]: sqlConnection() 
+2025-04-13 17:48:13 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 17:48:13 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 17:48:13 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 17:48:13 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:48:17 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 17:48:17 server.ts[info]: STARTED saveRecord() 
+2025-04-13 17:48:17 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 17:48:17 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 17:48:18 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 17:48:18 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 17:48:18 server.ts[info]: commitTransaction() 
+2025-04-13 17:48:18 server.ts[info]: endTransaction() 
+2025-04-13 17:48:18 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 17:48:18 server.ts[info]: ::1 - - [13/Apr/2025:12:18:18 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 17:48:21 server.ts[info]: ::1 - - [13/Apr/2025:12:18:21 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 17:48:45 server.ts[info]: ::1 - - [13/Apr/2025:12:18:45 +0000] "GET /uploads/240478_small.mp4 HTTP/1.1" 404 163
+ 
+2025-04-13 17:55:08 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 17:55:08 server.ts[info]: sqlConnection() 
+2025-04-13 17:55:08 server.ts[info]: initializationExpressServer() 
+2025-04-13 17:55:08 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:55:09 server.ts[info]: initializeRoutes() 
+2025-04-13 17:55:09 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 17:56:22 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 17:56:22 server.ts[info]: sqlConnection() 
+2025-04-13 17:56:22 server.ts[info]: initializationExpressServer() 
+2025-04-13 17:56:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:56:22 server.ts[info]: initializeRoutes() 
+2025-04-13 17:56:23 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 17:57:03 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 17:57:03 server.ts[info]: sqlConnection() 
+2025-04-13 17:57:03 server.ts[info]: initializationExpressServer() 
+2025-04-13 17:57:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:57:03 server.ts[info]: initializeRoutes() 
+2025-04-13 17:57:03 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 17:57:38 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 17:57:38 server.ts[info]: sqlConnection() 
+2025-04-13 17:57:38 server.ts[info]: initializationExpressServer() 
+2025-04-13 17:57:38 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:57:38 server.ts[info]: initializeRoutes() 
+2025-04-13 17:57:38 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 17:58:01 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 17:58:03 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 17:58:03 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 17:58:03 server.ts[info]: sqlConnection() 
+2025-04-13 17:58:03 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 17:58:03 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 17:58:03 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 17:58:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 17:58:07 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 17:58:07 server.ts[info]: STARTED saveRecord() 
+2025-04-13 17:58:07 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 17:58:07 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 17:58:07 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 17:58:08 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 17:58:08 server.ts[info]: commitTransaction() 
+2025-04-13 17:58:08 server.ts[info]: endTransaction() 
+2025-04-13 17:58:08 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 17:58:08 server.ts[info]: ::1 - - [13/Apr/2025:12:28:08 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 17:58:10 server.ts[info]: ::1 - - [13/Apr/2025:12:28:10 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 18:12:59 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 18:12:59 server.ts[info]: sqlConnection() 
+2025-04-13 18:12:59 server.ts[info]: initializationExpressServer() 
+2025-04-13 18:13:00 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 18:13:00 server.ts[info]: initializeRoutes() 
+2025-04-13 18:13:00 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 18:13:15 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 18:13:15 server.ts[info]: sqlConnection() 
+2025-04-13 18:13:15 server.ts[info]: initializationExpressServer() 
+2025-04-13 18:13:15 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 18:13:15 server.ts[info]: initializeRoutes() 
+2025-04-13 18:13:15 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 18:14:09 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 18:14:09 server.ts[info]: sqlConnection() 
+2025-04-13 18:14:09 server.ts[info]: initializationExpressServer() 
+2025-04-13 18:14:09 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 18:14:09 server.ts[info]: initializeRoutes() 
+2025-04-13 18:14:09 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 18:14:53 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 18:14:55 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 18:14:55 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 18:14:55 server.ts[info]: sqlConnection() 
+2025-04-13 18:14:55 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 18:14:55 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 18:14:55 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 18:14:55 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 18:14:59 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 18:14:59 server.ts[info]: STARTED saveRecord() 
+2025-04-13 18:14:59 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 18:14:59 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 18:15:00 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 18:15:00 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 18:15:00 server.ts[info]: commitTransaction() 
+2025-04-13 18:15:00 server.ts[info]: endTransaction() 
+2025-04-13 18:15:00 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 18:15:00 server.ts[info]: ::1 - - [13/Apr/2025:12:45:00 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 18:15:16 server.ts[info]: ::1 - - [13/Apr/2025:12:45:16 +0000] "GET /uploads/240478_small.mp4 HTTP/1.1" 404 163
+ 
+2025-04-13 18:15:16 server.ts[info]: ::1 - - [13/Apr/2025:12:45:16 +0000] "GET /uploads/240478_small.mp4 HTTP/1.1" 404 163
+ 
+2025-04-13 18:15:23 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 18:15:24 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 18:15:24 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 18:15:24 server.ts[info]: sqlConnection() 
+2025-04-13 18:15:24 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 18:15:24 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 18:15:24 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 18:15:24 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 18:15:28 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 18:15:28 server.ts[info]: STARTED saveRecord() 
+2025-04-13 18:15:28 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 18:15:28 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 18:15:29 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 18:15:29 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 18:15:29 server.ts[info]: commitTransaction() 
+2025-04-13 18:15:29 server.ts[info]: endTransaction() 
+2025-04-13 18:15:29 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 18:15:29 server.ts[info]: ::1 - - [13/Apr/2025:12:45:29 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 18:15:31 server.ts[info]: ::1 - - [13/Apr/2025:12:45:31 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 18:15:33 server.ts[info]: ::1 - - [13/Apr/2025:12:45:33 +0000] "GET /ap1/v1/uploads/240478_small.mp4 HTTP/1.1" 404 170
+ 
+2025-04-13 19:24:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 19:24:21 server.ts[info]: sqlConnection() 
+2025-04-13 19:24:21 server.ts[info]: initializationExpressServer() 
+2025-04-13 19:24:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:24:21 server.ts[info]: initializeRoutes() 
+2025-04-13 19:24:21 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 19:24:45 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 19:24:45 server.ts[info]: sqlConnection() 
+2025-04-13 19:24:45 server.ts[info]: initializationExpressServer() 
+2025-04-13 19:24:45 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:24:45 server.ts[info]: initializeRoutes() 
+2025-04-13 19:24:45 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 19:27:20 server.ts[info]: ::1 - - [13/Apr/2025:13:57:20 +0000] "POST /api/v1/video/upload/240478_small.mp4 HTTP/1.1" 404 176
+ 
+2025-04-13 19:27:35 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 19:27:35 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 19:27:35 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:27:35 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:27:35 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:27:35 server.ts[info]: errorHandler() 
+2025-04-13 19:27:35 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:27:35 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 19:27:35 server.ts[info]: ::1 - - [13/Apr/2025:13:57:35 +0000] "GET /api/v1/video/upload/240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 19:28:57 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 19:28:57 server.ts[info]: sqlConnection() 
+2025-04-13 19:28:57 server.ts[info]: initializationExpressServer() 
+2025-04-13 19:28:57 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:28:57 server.ts[info]: initializeRoutes() 
+2025-04-13 19:28:57 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 19:29:11 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 19:29:11 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 19:29:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:29:11 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:29:11 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:29:11 server.ts[info]: errorHandler() 
+2025-04-13 19:29:11 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:29:11 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 19:29:11 server.ts[info]: ::1 - - [13/Apr/2025:13:59:11 +0000] "GET /api/v1/video/upload/240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 19:45:20 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 19:45:20 server.ts[info]: sqlConnection() 
+2025-04-13 19:45:20 server.ts[info]: initializationExpressServer() 
+2025-04-13 19:45:20 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:45:20 server.ts[info]: initializeRoutes() 
+2025-04-13 19:45:20 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 19:45:25 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 19:45:25 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 19:45:25 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 19:45:26 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:45:26 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:45:26 server.ts[info]: errorHandler() 
+2025-04-13 19:45:26 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 19:45:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 19:45:26 server.ts[info]: ::1 - - [13/Apr/2025:14:15:26 +0000] "GET /api/v1/video/upload/240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:15:56 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:15:56 server.ts[info]: sqlConnection() 
+2025-04-13 20:15:56 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:15:56 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:15:56 server.ts[info]: initializeRoutes() 
+2025-04-13 20:15:56 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:16:01 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:16:02 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:16:02 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:16:02 server.ts[info]: sqlConnection() 
+2025-04-13 20:16:03 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:16:03 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:16:03 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:16:03 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:16:04 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:16:04 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:16:04 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:16:04 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:16:07 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:16:07 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:16:07 server.ts[info]: commitTransaction() 
+2025-04-13 20:16:07 server.ts[info]: endTransaction() 
+2025-04-13 20:16:07 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:16:07 server.ts[info]: ::1 - - [13/Apr/2025:14:46:07 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 20:19:12 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:19:12 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:19:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:19:12 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:19:12 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:19:12 server.ts[info]: errorHandler() 
+2025-04-13 20:19:12 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:19:12 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:19:12 server.ts[info]: ::1 - - [13/Apr/2025:14:49:12 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:30:20 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:30:22 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:30:22 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:30:22 server.ts[info]: sqlConnection() 
+2025-04-13 20:30:22 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:30:22 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:30:22 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:30:22 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:30:25 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:30:25 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:30:25 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:30:25 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:30:26 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:30:26 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:30:26 server.ts[info]: commitTransaction() 
+2025-04-13 20:30:26 server.ts[info]: endTransaction() 
+2025-04-13 20:30:26 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:30:26 server.ts[info]: ::1 - - [13/Apr/2025:15:00:26 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 20:30:29 server.ts[info]: ::1 - - [13/Apr/2025:15:00:29 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:32:01 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:32:01 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:32:01 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:32:01 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:32:01 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:32:01 server.ts[info]: errorHandler() 
+2025-04-13 20:32:01 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:32:01 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:32:01 server.ts[info]: ::1 - - [13/Apr/2025:15:02:01 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:32:31 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:32:32 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:32:32 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:32:32 server.ts[info]: sqlConnection() 
+2025-04-13 20:32:33 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:32:33 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:32:33 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:32:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:32:35 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:32:35 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:32:35 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:32:35 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:32:36 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:32:36 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:32:36 server.ts[info]: commitTransaction() 
+2025-04-13 20:32:36 server.ts[info]: endTransaction() 
+2025-04-13 20:32:36 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:32:36 server.ts[info]: ::1 - - [13/Apr/2025:15:02:36 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 141
+ 
+2025-04-13 20:32:38 server.ts[info]: ::1 - - [13/Apr/2025:15:02:38 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:35:48 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:35:48 server.ts[info]: sqlConnection() 
+2025-04-13 20:35:48 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:35:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:35:48 server.ts[info]: initializeRoutes() 
+2025-04-13 20:35:48 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:36:41 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:36:41 server.ts[info]: sqlConnection() 
+2025-04-13 20:36:41 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:36:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:36:41 server.ts[info]: initializeRoutes() 
+2025-04-13 20:36:41 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:36:46 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:36:46 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:36:46 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:36:47 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:47 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:47 server.ts[info]: errorHandler() 
+2025-04-13 20:36:47 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:47 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:36:47 server.ts[info]: ::1 - - [13/Apr/2025:15:06:47 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:36:51 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:36:51 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:36:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:36:51 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:51 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:51 server.ts[info]: errorHandler() 
+2025-04-13 20:36:51 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:36:51 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:36:51 server.ts[info]: ::1 - - [13/Apr/2025:15:06:51 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:37:12 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:37:12 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:37:12 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:37:12 server.ts[error]: helpers.s3_media.pipeFile() ERROR occurred  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:37:12 server.ts[error]: ERROR occurred in controller.videos.getS3FileByFilePath()  The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:37:12 server.ts[info]: errorHandler() 
+2025-04-13 20:37:12 server.ts[error]: handling ERROR : The specified key does not exist. NoSuchKey: The specified key does not exist.
+    at de_NoSuchKeyRes (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:5032:21)
+    at de_CommandError (D:\video-processing-system\server\node_modules\@aws-sdk\client-s3\dist-cjs\index.js:4931:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-serde\dist-cjs\index.js:35:20
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:484:18
+    at async D:\video-processing-system\server\node_modules\@smithy\middleware-retry\dist-cjs\index.js:320:38
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:110:22
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-sdk-s3\dist-cjs\index.js:137:14
+    at async D:\video-processing-system\server\node_modules\@aws-sdk\middleware-logger\dist-cjs\index.js:33:22
+2025-04-13 20:37:12 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:37:12 server.ts[info]: ::1 - - [13/Apr/2025:15:07:12 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 500 65
+ 
+2025-04-13 20:40:21 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:40:21 server.ts[info]: sqlConnection() 
+2025-04-13 20:40:21 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:40:21 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:40:21 server.ts[info]: initializeRoutes() 
+2025-04-13 20:40:21 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:40:46 server.ts[info]: controller.videos.getS3FileByFilePath() 
+2025-04-13 20:40:46 server.ts[info]: helpers.s3_media.pipeFile() 
+2025-04-13 20:40:46 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:40:52 server.ts[info]: ::1 - - [13/Apr/2025:15:10:52 +0000] "GET /api/v1/video/upload/1744555563079-240478_small.mp4 HTTP/1.1" 200 -
+ 
+2025-04-13 20:45:41 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:45:41 server.ts[info]: sqlConnection() 
+2025-04-13 20:45:41 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:45:41 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:45:41 server.ts[info]: initializeRoutes() 
+2025-04-13 20:45:41 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:47:07 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:47:10 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:47:10 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:47:10 server.ts[info]: sqlConnection() 
+2025-04-13 20:47:10 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:47:10 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:47:10 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:47:10 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:47:13 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:47:13 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:47:13 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:47:13 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:47:15 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:47:15 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:47:15 server.ts[info]: commitTransaction() 
+2025-04-13 20:47:16 server.ts[info]: endTransaction() 
+2025-04-13 20:47:16 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:47:16 server.ts[info]: ::1 - - [13/Apr/2025:15:17:16 +0000] "POST /api/v1/video/upload/ HTTP/1.1" 200 263
+ 
+2025-04-13 20:47:52 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:47:54 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:47:54 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:47:54 server.ts[info]: sqlConnection() 
+2025-04-13 20:47:54 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:47:54 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:47:54 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:47:54 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:47:57 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:47:57 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:47:57 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:47:57 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:47:58 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:47:58 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:47:58 server.ts[info]: commitTransaction() 
+2025-04-13 20:47:58 server.ts[info]: endTransaction() 
+2025-04-13 20:47:58 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:47:58 server.ts[info]: ::1 - - [13/Apr/2025:15:17:58 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 263
+ 
+2025-04-13 20:48:01 server.ts[info]: ::1 - - [13/Apr/2025:15:18:01 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:49:48 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:49:48 server.ts[info]: sqlConnection() 
+2025-04-13 20:49:48 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:49:48 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:49:49 server.ts[info]: initializeRoutes() 
+2025-04-13 20:49:49 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:50:03 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:50:04 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:50:04 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:50:04 server.ts[info]: sqlConnection() 
+2025-04-13 20:50:04 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:50:04 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:50:04 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:50:04 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:50:07 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:50:07 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:50:07 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:50:07 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:50:08 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:50:08 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:50:08 server.ts[info]: commitTransaction() 
+2025-04-13 20:50:08 server.ts[info]: endTransaction() 
+2025-04-13 20:50:09 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:50:09 server.ts[info]: ::1 - - [13/Apr/2025:15:20:09 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 20:50:11 server.ts[info]: ::1 - - [13/Apr/2025:15:20:11 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:50:16 server.ts[info]: ::1 - - [13/Apr/2025:15:20:16 +0000] "GET /ap1/v1/video/upload/240478_small.mp4 HTTP/1.1" 404 175
+ 
+2025-04-13 20:50:16 server.ts[info]: ::1 - - [13/Apr/2025:15:20:16 +0000] "GET /ap1/v1/video/upload/240478_small.mp4 HTTP/1.1" 404 175
+ 
+2025-04-13 20:51:34 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:51:36 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:51:36 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:51:36 server.ts[info]: sqlConnection() 
+2025-04-13 20:51:36 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:51:36 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:51:36 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:51:36 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:51:38 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:51:38 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:51:38 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:51:38 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:51:39 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:51:39 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:51:39 server.ts[info]: commitTransaction() 
+2025-04-13 20:51:39 server.ts[info]: endTransaction() 
+2025-04-13 20:51:39 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:51:39 server.ts[info]: ::1 - - [13/Apr/2025:15:21:39 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 20:51:41 server.ts[info]: ::1 - - [13/Apr/2025:15:21:41 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:51:43 server.ts[info]: ::1 - - [13/Apr/2025:15:21:43 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 20:52:50 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:52:51 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:52:51 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:52:51 server.ts[info]: sqlConnection() 
+2025-04-13 20:52:51 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:52:51 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:52:51 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:52:51 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:52:54 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:52:54 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:52:54 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:52:54 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:52:55 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:52:55 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:52:55 server.ts[info]: commitTransaction() 
+2025-04-13 20:52:55 server.ts[info]: endTransaction() 
+2025-04-13 20:52:55 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:52:55 server.ts[info]: ::1 - - [13/Apr/2025:15:22:55 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 20:52:58 server.ts[info]: ::1 - - [13/Apr/2025:15:22:58 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:53:01 server.ts[info]: ::1 - - [13/Apr/2025:15:23:01 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 20:54:20 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 20:54:20 server.ts[info]: sqlConnection() 
+2025-04-13 20:54:20 server.ts[info]: initializationExpressServer() 
+2025-04-13 20:54:20 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:54:20 server.ts[info]: initializeRoutes() 
+2025-04-13 20:54:20 server.ts[info]: SERVER listening on PORT:3201 
+2025-04-13 20:54:37 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 20:54:39 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 20:54:39 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 20:54:39 server.ts[info]: sqlConnection() 
+2025-04-13 20:54:39 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 20:54:39 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 20:54:39 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 20:54:39 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 20:54:41 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 20:54:41 server.ts[info]: STARTED saveRecord() 
+2025-04-13 20:54:41 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 20:54:41 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 20:54:42 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 20:54:42 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 20:54:42 server.ts[info]: commitTransaction() 
+2025-04-13 20:54:42 server.ts[info]: endTransaction() 
+2025-04-13 20:54:42 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 20:54:42 server.ts[info]: ::1 - - [13/Apr/2025:15:24:42 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 20:54:44 server.ts[info]: ::1 - - [13/Apr/2025:15:24:44 +0000] "GET /ap1/v1/video/undefined HTTP/1.1" 404 161
+ 
+2025-04-13 20:55:03 server.ts[info]: ::1 - - [13/Apr/2025:15:25:03 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 20:55:03 server.ts[info]: ::1 - - [13/Apr/2025:15:25:03 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 20:55:03 server.ts[info]: ::1 - - [13/Apr/2025:15:25:03 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 21:00:04 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 21:00:05 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 21:00:05 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 21:00:05 server.ts[info]: sqlConnection() 
+2025-04-13 21:00:05 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 21:00:05 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 21:00:05 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 21:00:05 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 21:00:07 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 21:00:07 server.ts[info]: STARTED saveRecord() 
+2025-04-13 21:00:07 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 21:00:07 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 21:00:08 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 21:00:08 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 21:00:08 server.ts[info]: commitTransaction() 
+2025-04-13 21:00:08 server.ts[info]: endTransaction() 
+2025-04-13 21:00:08 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 21:00:08 server.ts[info]: ::1 - - [13/Apr/2025:15:30:08 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 21:01:02 server.ts[info]: ::1 - - [13/Apr/2025:15:31:02 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 21:01:02 server.ts[info]: ::1 - - [13/Apr/2025:15:31:02 +0000] "GET /ap1/v1/video/upload/undefined HTTP/1.1" 404 168
+ 
+2025-04-13 21:01:32 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 21:01:33 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 21:01:33 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 21:01:33 server.ts[info]: sqlConnection() 
+2025-04-13 21:01:33 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 21:01:33 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 21:01:33 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 21:01:33 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 21:01:36 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 21:01:36 server.ts[info]: STARTED saveRecord() 
+2025-04-13 21:01:36 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 21:01:36 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 21:01:37 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 21:01:37 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 21:01:37 server.ts[info]: commitTransaction() 
+2025-04-13 21:01:37 server.ts[info]: endTransaction() 
+2025-04-13 21:01:37 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 21:01:37 server.ts[info]: ::1 - - [13/Apr/2025:15:31:37 +0000] "POST /api/v1/video/upload/ HTTP/1.1" 200 201
+ 
+2025-04-13 21:06:09 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 21:06:11 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 21:06:11 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 21:06:11 server.ts[info]: sqlConnection() 
+2025-04-13 21:06:11 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 21:06:11 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 21:06:11 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 21:06:11 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 21:06:14 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 21:06:14 server.ts[info]: STARTED saveRecord() 
+2025-04-13 21:06:14 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 21:06:14 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 21:06:15 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 21:06:15 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 21:06:15 server.ts[info]: commitTransaction() 
+2025-04-13 21:06:15 server.ts[info]: endTransaction() 
+2025-04-13 21:06:15 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 21:06:15 server.ts[info]: ::1 - - [13/Apr/2025:15:36:15 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 21:10:13 server.ts[info]: controller.videos.saveVideo()  
+2025-04-13 21:10:14 server.ts[info]: service.videos.saveVideo() 
+2025-04-13 21:10:14 server.ts[info]: data_stores.mysql.helpers.transaction.getConnection() 
+2025-04-13 21:10:14 server.ts[info]: sqlConnection() 
+2025-04-13 21:10:14 server.ts[info]: data_stores.mysql.helpers.transaction.beginTransaction() 
+2025-04-13 21:10:14 server.ts[info]: helpers.s3_media.saveFile() 
+2025-04-13 21:10:14 server.ts[info]: helpers.s3_media.saveFileBuffer() 
+2025-04-13 21:10:14 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 21:10:17 server.ts[info]: datasources.pgsql.query_handlers.lib.video.saveCourseDetails()  
+2025-04-13 21:10:17 server.ts[info]: STARTED saveRecord() 
+2025-04-13 21:10:17 server.ts[info]: 📂 Processing video at: undefined 
+2025-04-13 21:10:17 server.ts[info]: 📂 Running Python script: python D:\video-processing-system\server\src\service\yolo\detect.py undefined 
+2025-04-13 21:10:18 server.ts[info]: 🔚 outputData {
+    "detections": [],
+    "frames": []
+}
+ 
+2025-04-13 21:10:18 server.ts[info]: 🔚 Python script exited with code 0 
+2025-04-13 21:10:18 server.ts[info]: commitTransaction() 
+2025-04-13 21:10:18 server.ts[info]: endTransaction() 
+2025-04-13 21:10:18 server.ts[info]: helper.response_builder.responseBuilder( 
+2025-04-13 21:10:18 server.ts[info]: ::1 - - [13/Apr/2025:15:40:18 +0000] "POST /api/v1/video/upload HTTP/1.1" 200 201
+ 
+2025-04-13 21:10:20 server.ts[info]: ::1 - - [13/Apr/2025:15:40:20 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:22 server.ts[info]: ::1 - - [13/Apr/2025:15:40:22 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:24 server.ts[info]: ::1 - - [13/Apr/2025:15:40:24 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:26 server.ts[info]: ::1 - - [13/Apr/2025:15:40:26 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:28 server.ts[info]: ::1 - - [13/Apr/2025:15:40:28 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:30 server.ts[info]: ::1 - - [13/Apr/2025:15:40:30 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:32 server.ts[info]: ::1 - - [13/Apr/2025:15:40:32 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:34 server.ts[info]: ::1 - - [13/Apr/2025:15:40:34 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:36 server.ts[info]: ::1 - - [13/Apr/2025:15:40:36 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:10:38 server.ts[info]: ::1 - - [13/Apr/2025:15:40:38 +0000] "HEAD /ap1/v1/video/upload/undefined HTTP/1.1" 404 169
+ 
+2025-04-13 21:11:49 server.ts[info]: STARTED Validation of env variables! 
+2025-04-13 21:11:49 server.ts[info]: sqlConnection() 
+2025-04-13 21:11:49 server.ts[info]: initializationExpressServer() 
+2025-04-13 21:11:49 server.ts[info]: s3ConnectionLoader() 
+2025-04-13 21:11:49 server.ts[info]: initializeRoutes() 
+2025-04-13 21:11:49 server.ts[info]: SERVER listening on PORT:3201 
